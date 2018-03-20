@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fireworks:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fireworks-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fireworks:war exploded" />
+    </root>
+  </artifact>
+</component>
