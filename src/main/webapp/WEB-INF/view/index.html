@@ -1,10 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>旧时光 | Time 陈嘉扬's 博客</title>
+    <link rel="bookmark"  type="image/x-icon"  href="/assets/img/favicon.ico"/>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/amazeui.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        .avatar{
+            margin-top: 10%;
+            margin-left: 13%;
+            text-align: center;
+        }
+        .connect-row {
+            margin-left: 5%;
+            text-align: center;
+        }
+        .intro {
+            text-align: center;
+        }
+        .intro-tag {
+            margin-top: 10%;
+            margin-left: 22%;
+        }
+        .divider {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .recent-blog-list {
+            font-size: 13px;
+            font-style: normal;
+            font-weight: lighter;
+            text-align: left;
+            margin-left: 5%;
+        }
+        .btn-tag {
+            margin-left: 1%;
+            margin-top: 1%;
+            border-Radius: 20px;
+        }
+        .photo-slider {
+            margin-top: 2%;
+        }
+        .photo {
+            max-width: 100%;
+            max-height: 270px;
+        }
+        .cardView{
+            width: 100%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+        .activity-tag {
+            text-align: center;
+            margin-top: 10%;
+        }
+        .turnPage1 {
+            margin-left: 26.3%;
+            position: fixed;
+            bottom: 0;
+        }
+        .turnPage2 {
+            margin-left: 41.5%;
+            position: fixed;
+            bottom: 0;
+        }
+        .activity-area {
+
+        }
+        .searchBtn {
+            margin-top: 4%;
+            margin-right: 4%;
+        }
+        .header-btn-group {
+            margin-top: 5%;
+        }
+        .title {
+            font-size: 14px;
+        }
+        .blogList {
+            margin-left: 2%;
+            margin-right: 3.2%;
+            margin-top: 1%;
+        }
+        .publishDate {
+            font-size: 14px;
+            color: #959595;
+        }
+        .fireworks-tag {
+            margin-top: 15%;
+        }
+    </style>
 </head>
 <body>
-Hello World
+
+<div class="row" ng-app="fireworks" ng-controller="FireworksIndexController">
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-4 avatar">
+                <img class="am-circle" src="/assets/img/avatar.jpeg" width="140" height="140"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="intro-tag" style="font-weight: bold; font-family: Monaco;color:#b4b4b4;">Introduction</h5>
+            </div>
+            <div class="col-md-12">
+                <hr class="divider">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 intro">
+                <p style="color: #565656;font-weight: bold">{{introduction}}</p>
+            </div>
+        </div>
+        <div class="row connect-row">
+            <div class="col-md-3">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="intro-tag" style="font-weight: bold;font-family: Monaco;;color:#b4b4b4;">Recent Blog</h5>
+            </div>
+            <div class="col-md-12">
+                <ul class="am-list recent-blog-list">
+                    <li ng-repeat="item in recentBlog"><a href="#" class="am-text-truncate"><i class="fa fa-circle-o" aria-hidden="true"></i> {{item}}</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="intro-tag" style="font-weight: bold;font-family: Monaco;;color:#b4b4b4;">Popular Tag</h5>
+            </div>
+            <div class="col-md-12">
+                <hr class="divider">
+            </div>
+            <div class="col-md-12">
+                <button ng-repeat="tag in tagList" class="btn btn-default btn-sm btn-tag">{{tag}}</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="am-slider am-slider-default photo-slider" data-am-flexslider id="demo-slider-0">
+                    <ul class="am-slides">
+                        <li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/bloghometown.jpeg" /></li>
+                        <li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/blog%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170921164059.jpg" /></li>
+                        <li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/blog%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170921161442.jpg" /></li>
+                        <li><img class="photo" src="/assets/img/love.jpg" /></li>
+                        <li><img class="photo" src="/assets/img/military_training.jpg" /></li>
+                        <li><img class="photo" src="/assets/img/stadium.jpg" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <h5 class="activity-tag" style="font-weight: bold;font-family: Monaco;;color:#b4b4b4;">Activity</h5>
+        </div>
+        <div class="col-md-12">
+            <hr class="divider">
+        </div>
+        <div class="row activity-area">
+            <div class="col-md-12">
+                <div class="cardView">
+                    HHH
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="am-pagination turnPage1">
+                <li><a href=""><span class="am-icon-angle-double-left"></span></a></li>
+                <li><a href=""><span class="am-icon-angle-double-right"></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="btn-group header-btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default"><i class="fa fa-map-o" aria-hidden="true"></i> 详情</button>
+                    <button type="button" class="btn btn-default"><i class="fa fa-list-ul" aria-hidden="true"></i> 列表</button>
+
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 日期
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Dropdown link</a></li>
+                            <li><a href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5 class="fireworks-tag" style="font-weight: bold;font-family: Monaco;;color:#b4b4b4;">旧时光 | Time</h5>
+            </div>
+            <div class="col-md-4">
+                <div class="am-input-group am-input-group-default searchBtn">
+                    <span class="am-input-group-btn">
+                      <button class="am-btn am-btn-default" type="button" style="background-color: white"><span class="am-icon-search"></span></button>
+                    </span>
+                    <input type="text" class="am-form-field">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="am-list am-list-border blogList">
+                <li ng-repeat="x in titleList" style="vertical-align: middle;">
+                    <div class="am-g">
+                        <div class="am-u-md-9" style="margin-top: 2.5%;">
+                            <a href="#" class="am-text-truncate title"><i class="fa fa-circle-o" aria-hidden="true"></i> {{x}}</a>
+                        </div>
+                        <div class="am-u-md-3" style="margin-top: 2.5%;">
+                            <p class="am-text-truncate publishDate">2018-09-01</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="am-pagination turnPage2">
+                    <li><a href=""><span class="am-icon-angle-double-left"></span></a></li>
+                    <li><a href=""><span class="am-icon-angle-double-right"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/angular.min.js"></script>
+<script src="/static/js/amazeui.js"></script>
+<script src="/static/js/amazeui.widgets.helper.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/index.js"></script>
 </body>
 </html>
