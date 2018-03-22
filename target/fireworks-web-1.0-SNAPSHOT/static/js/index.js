@@ -13,16 +13,16 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         '你不懂我，我不怪你。'
     ];
 
-    $scope.init = function () {
-        $http.get('/testHttp',{
-            params:{
-                data: 'hello world'
-            }
-        }).then(function (res) {
-                console.log(res);
-            });
-    };
-
-    $scope.init();
+    // $scope.init = function () {
+    //     $http.get('/testHttp',{
+    //         params:{
+    //             data: 'hello world'
+    //         }
+    //     }).then(function (res) {
+    //             console.log(res);
+    //         });
+    // };
+    //
+    // $scope.init();
 }
 ]);

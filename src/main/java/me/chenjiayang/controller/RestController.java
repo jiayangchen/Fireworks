@@ -20,10 +20,6 @@ public class RestController {
     @RequestMapping(value="/testHttp",method= RequestMethod.GET, produces = {"application/json;charset=UTF-8"})
     @ResponseBody
     public JSONObject testHttp() {
-//        HttpHeaders headers = MyHttpHeader.getHttpHeaders();
-//        JSONObject jsonObject = new JSONObject();
-//        jsonObject.put("data", "sdafasf");
-//        return new ResponseEntity<>(jsonObject, headers, HttpStatus.OK);
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("dad","asdfasdf");
         return jsonObject;
