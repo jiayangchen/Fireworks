@@ -9,4 +9,7 @@ import java.util.List;
  */
 public interface BlogService {
     List<Blog> findAll();
+    void addBlog(Blog blog);
+    void updateBlog(Blog blog);
+    List<Blog> listBlogTitle(int page);
 }

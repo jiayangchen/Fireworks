@@ -6,6 +6,7 @@ import me.chenjiayang.service.BlogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,5 +22,21 @@ public class BlogServiceImpl implements BlogService {
     @Override
     public List<Blog> findAll() {
         return blogDao.getAll();
+    }
+
+    @Override
+    public void addBlog(Blog blog) {
+        blogDao.insert(blog);
+    }
+
+    @Override
+    public void updateBlog(Blog blog) {
+        blogDao.update(blog);
+    }
+
+    @Override
+    public List<Blog> listBlogTitle(int page) {
+        List<Blog> blogList = blogDao.getAllDescByPage(page);
+        return blogList;
     }
 }

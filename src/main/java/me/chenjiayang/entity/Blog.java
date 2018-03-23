@@ -1,14 +1,12 @@
 package me.chenjiayang.entity;
 
-import java.sql.Timestamp;
-
 /**
  * create by chenjiayang on 2018/3/20
  */
 public class Blog {
     private Integer id;
     private String blogTitle;
-    private Timestamp createTime;
+    private String createTime;
     private String blogContent;
     private String blogTag;
 
@@ -28,11 +26,11 @@ public class Blog {
         this.blogTitle = blogTitle;
     }
 
-    public Timestamp getCreateTime() {
+    public String getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Timestamp createTime) {
+    public void setCreateTime(String createTime) {
         this.createTime = createTime;
     }
 

@@ -10,9 +10,9 @@
         VALUES (#{content}, #{location}, #{imgUrl}, #{createTime})
     </insert>
 
-    <select id="getActivityByPage" parameterType="java.lang.Integer">
-        SELECT * FROM `Activity` ORDER BY createTime
-        LIMIT #{page}, 4
+    <select id="getActivityByPage" parameterType="java.lang.Integer" resultType="me.chenjiayang.entity.Activity">
+        SELECT * FROM `Activity` ORDER BY createTime DESC
+        LIMIT #{page}, 3
     </select>
 
 </mapper>

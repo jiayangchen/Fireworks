@@ -6,6 +6,8 @@ import me.chenjiayang.service.ActivityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * create by chenjiayang on 2018/3/22
  */
@@ -19,5 +21,10 @@ public class ActivityServiceImpl implements ActivityService {
     @Override
     public void addActivity(Activity activity) {
         activityDao.insert(activity);
+    }
+
+    @Override
+    public List<Activity> findActivitiesByPage(int page) {
+        return activityDao.getActivityByPage(page);
     }
 }

@@ -7,4 +7,20 @@
     <select id="getAll" resultType="me.chenjiayang.entity.Blog">
         SELECT * FROM `Blog`
     </select>
+
+    <select id="getAllDescByPage" parameterType="java.lang.Integer" resultType="me.chenjiayang.entity.Blog">
+        SELECT * FROM `Blog`
+        ORDER BY createTime LIMIT #{page}, 11
+    </select>
+
+    <insert id="insert" parameterType="Blog">
+        INSERT INTO `Blog`(blogTitle, createTime, blogContent, blogTag)
+        VALUES (#{blogTitle}, #{createTime}, #{blogContent}, #{blogTag})
+    </insert>
+
+    <update id="update" parameterType="Blog">
+        UPDATE `Blog`
+        SET blogContent = #{blogContent}
+        WHERE blogTitle = #{blogTitle}
+    </update>
 </mapper>

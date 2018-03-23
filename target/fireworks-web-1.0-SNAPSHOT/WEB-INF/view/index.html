@@ -121,16 +121,19 @@
             margin-left: 10%;
             font-size: 13px;
             color: #999;
+            font-family: cursive;
         }
         .activity-date {
             text-align: right;
             font-size: 13px;
             margin-left: 45%;
             color: #999;
+            font-family: cursive;
         }
         .activity-content {
             margin-left: 5%;
-            font-family: Monaco;
+            font-family: cursive;
+            font-size: 15px;
         }
         .intro-sentence {
             color: #56565687;
@@ -277,15 +280,17 @@
                 <div class="cardView" style="margin-bottom: 2%">
                     <div class="row">
                         <div class="col-md-12" style="margin-top: 2%">
-                            <span class="activity-content">{{activity.content}}</span>
+                            <div class="col-md-10">
+                                <span class="activity-content">{{activity.content}}</span>
+                            </div>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 2%">
                         <div class="col-md-6" style="margin-bottom: 2%">
-                            <span class="activity-location"> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;{{activity.location}}</span>
+                            <span class="activity-location"> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;{{activity.location}}</span>
                         </div>
                         <div class="col-md-6">
-                            <span class="activity-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;{{activity.date}}</span>
+                            <span class="activity-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;{{activity.createTime}}</span>
                         </div>
                     </div>
                 </div>
@@ -293,10 +298,21 @@
         </div>
         <div class="row">
             <ul class="am-pagination turnPage1">
-                <li><a href=""><i class="fa fa-angle-left" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Pre</span></a></li>
-                <li><a href=""><i class="fa fa-angle-right" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Next</span></a></li>
+                <li><a ng-click="preActivity()" style="cursor: pointer;"><i class="fa fa-angle-left" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Pre</span></a></li>
+                <li><a ng-click="nextActivity()" style="cursor: pointer;"><i class="fa fa-angle-right" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Next</span></a></li>
             </ul>
         </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="warnModal">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p style="text-align: center;vertical-align: middle;">{{pageWarning}}</p>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
     </div>
     <div class="col-md-6">
         <div style="margin-right: 7%">
@@ -343,7 +359,7 @@
                 <li ng-repeat="x in titleList" style="vertical-align: middle;">
                     <div class="am-g">
                         <div class="am-u-md-9" style="margin-top: 2.5%;">
-                            <a href="#" class="am-text-truncate title"><i class="fa fa-circle-o" aria-hidden="true"></i> {{x}}</a>
+                            <a href="/blog/{{x.blogTitle}}" class="am-text-truncate title"><i class="fa fa-circle-o" aria-hidden="true"></i> {{x.blogContent}}</a>
                         </div>
                         <div class="am-u-md-3" style="margin-top: 2.5%;">
                             <p class="am-text-truncate publishDate">2018-09-01</p>
@@ -355,8 +371,8 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="am-pagination turnPage2">
-                    <li><a href=""><i class="fa fa-angle-left" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Pre</span></a></li>
-                    <li><a href=""><i class="fa fa-angle-right" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Next</span></a></li>
+                    <li><a style="cursor: pointer;"><i class="fa fa-angle-left" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Pre</span></a></li>
+                    <li><a style="cursor: pointer;"><i class="fa fa-angle-right" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Next</span></a></li>
                 </ul>
             </div>
         </div>

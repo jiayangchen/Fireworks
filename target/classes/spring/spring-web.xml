@@ -34,5 +34,12 @@
         <property name="suffix" value=".html" />
     </bean>
 
+    <!-- springMVC上传文件,配置MultipartResolver处理器 -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="utf-8"/>
+        <property name="maxUploadSize" value="10485760000"/>
+        <property name="maxInMemorySize" value="40960"/>
+    </bean>
 
 </beans>

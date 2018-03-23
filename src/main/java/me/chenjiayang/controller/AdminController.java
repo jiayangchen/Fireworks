@@ -3,13 +3,17 @@ package me.chenjiayang.controller;
 import com.alibaba.fastjson.JSONObject;
 import me.chenjiayang.entity.Activity;
 import me.chenjiayang.service.ActivityService;
+import me.chenjiayang.utils.Constant;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
 
 /**
  * create by chenjiayang on 2018/3/22
@@ -18,18 +22,20 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class AdminController {
 
+    private static final Logger logger = LoggerFactory.getLogger(AdminController.class);
+
     @Autowired
     private ActivityService activityService;
 
     @RequestMapping(value = "/admin",method = RequestMethod.GET)
     @ResponseBody
-    public ModelAndView admin(){
+    public ModelAndView admin (){
         return new ModelAndView("admin");
     }
 
     @RequestMapping(value = "/login",method = RequestMethod.GET)
     @ResponseBody
-    public ModelAndView login(){
+    public ModelAndView login (){
         return new ModelAndView("login");
     }
 
@@ -37,15 +43,39 @@ public class AdminController {
     @ResponseBody
     public JSONObject addActivity (@RequestBody Activity activity) {
         JSONObject result = new JSONObject();
-        try{
-            String location = activity.getLocation();
-            byte[] bytes = location.getBytes();
-
+        try {
             activityService.addActivity(activity);
-            result.put("status",200);
+            result.put("status", Constant.SUCCESS.getStatusCode());
         } catch (Exception e) {
-            result.put("status", 500);
+            result.put("status", Constant.SERVER_ERROR.getStatusCode());
             result.put("message", e.getMessage());
+            logger.error("addActivity", Constant.SERVER_ERROR.getName() + " " + e.getMessage());
+        }
+        return result;
+    }
+
+    @RequestMapping(value="/uploadMarkdown", method = RequestMethod.POST)
+    @ResponseBody
+    public JSONObject upload(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
+        JSONObject result = new JSONObject();
+        if (!file.isEmpty()) {
+            String storePath = "/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/webapp/assets/md";
+            String fileName = file.getOriginalFilename();
+            File filepath = new File(storePath, fileName);
+            if (!filepath.getParentFile().exists()) {
+                filepath.getParentFile().mkdirs();
+            }
+            try {
+                file.transferTo(new File(storePath + File.separator + fileName));
+                result.put("status", 200);
+            } catch (Exception e) {
+                logger.error("uploadMarkdown", e.getMessage());
+                result.put("status", 500);
+                result.put("errorMsg", e.getMessage());
+            }
+        } else {
+            result.put("status", 500);
+            result.put("errorMsg", "empty file");
         }
         return result;
     }
