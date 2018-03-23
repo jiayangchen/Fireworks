@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Controller
-public class RestController {
+public class RestfulController {
 
     @RequestMapping(value="/testHttp",method= RequestMethod.GET, produces = {"application/json;charset=UTF-8"})
     @ResponseBody

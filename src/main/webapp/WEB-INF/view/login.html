@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>旧时光 | Time 陈嘉扬's 博客</title>
+    <link rel="bookmark"  type="image/x-icon"  href="/assets/img/favicon.ico"/>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/amazeui.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div class="row" ng-app="fireworks" ng-controller="FireworksAdminController">
+   <div class="col-md-4">
+
+   </div>
+    <div class="col-md-4">
+        <form style="margin-top: 10%">
+            <div class="form-group">
+                <label for="exampleInputEmail1">用户名 UserName</label>
+                <input ng-model="loginUsername" type="text" class="form-control" id="exampleInputEmail1" placeholder="用户名 UserName">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">密码 Password</label>
+                <input ng-model="loginPassword" type="password" class="form-control" id="exampleInputPassword1" placeholder="密码 Password">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default pull-right" ng-click="loginAuth()">Login</button>
+        </form>
+    </div>
+    <div class="col-md-4">
+
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/angular.min.js"></script>
+<script src="/static/js/amazeui.js"></script>
+<script src="/static/js/amazeui.widgets.helper.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/admin.js"></script>
+</body>
+</html>

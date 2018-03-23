@@ -27,11 +27,20 @@ public class AdminController {
         return new ModelAndView("admin");
     }
 
+    @RequestMapping(value = "/login",method = RequestMethod.GET)
+    @ResponseBody
+    public ModelAndView login(){
+        return new ModelAndView("login");
+    }
+
     @RequestMapping(value = "/addActivity", method = RequestMethod.POST, produces = {"application/json;charset=UTF-8"})
     @ResponseBody
     public JSONObject addActivity (@RequestBody Activity activity) {
         JSONObject result = new JSONObject();
         try{
+            String location = activity.getLocation();
+            byte[] bytes = location.getBytes();
+
             activityService.addActivity(activity);
             result.put("status",200);
         } catch (Exception e) {

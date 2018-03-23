@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>旧时光 | Time 陈嘉扬's 博客</title>
+    <link rel="bookmark"  type="image/x-icon"  href="/assets/img/favicon.ico"/>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/amazeui.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        .activityInput {
+            margin-left: 5%;
+        }
+        .activityBtn {
+            margin-top: 2%;
+        }
+        .activityTitle {
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="row" ng-app="fireworks" ng-controller="FireworksAdminController">
+    <div class="col-md-3">
+        <h4 class="activityTitle">发布动态</h4>
+        <textarea class="form-control activityInput" rows="3" ng-model="activityInfo"></textarea>
+        <button class="btn btn-default btn-sm activityBtn pull-right" ng-click="addActivity()">添加</button>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/angular.min.js"></script>
+<script src="/static/js/amazeui.js"></script>
+<script src="/static/js/amazeui.widgets.helper.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/admin.js"></script>
+</body>
+</html>

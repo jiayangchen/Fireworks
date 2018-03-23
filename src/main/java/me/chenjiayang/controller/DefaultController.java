@@ -19,4 +19,10 @@ public class DefaultController {
         return new ModelAndView("index");
     }
 
+    @RequestMapping(value = "/aboutme",method = RequestMethod.GET)
+    @ResponseBody
+    public ModelAndView aboutme(){
+        return new ModelAndView("aboutme");
+    }
+
 }

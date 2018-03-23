@@ -1,5 +1,9 @@
 var app = angular.module('fireworks', []);
 app.controller('FireworksAdminController', ['$scope', '$http', '$compile', function ($scope, $http, $compile) {
+
+    $scope.loginUsername = null;
+    $scope.loginPassword = null;
+
     $scope.addActivity = function () {
         var activity = {
             content: "撒发达第三方士大夫士大夫",
@@ -16,5 +20,9 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
                     alert(response.message);
                 }
             })
+    };
+
+    $scope.loginAuth = function () {
+        alert($scope.loginUsername + ' ' + $scope.loginPassword);
     }
 }]);
