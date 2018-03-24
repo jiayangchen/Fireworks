@@ -10,31 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b795382-677d-4f83-8c4a-5c5a588a5e04" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-03-22-redis-persistence.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/assets/md/2018-03-22-redis-persistence.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/chenjiayang/controller/BlogController.class" afterPath="$PROJECT_DIR$/target/classes/me/chenjiayang/controller/BlogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/chenjiayang/utils/FileUtils.class" afterPath="$PROJECT_DIR$/target/classes/me/chenjiayang/utils/FileUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/me/chenjiayang/controller/BlogController.class" afterPath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/me/chenjiayang/controller/BlogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/me/chenjiayang/utils/FileUtils.class" afterPath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/me/chenjiayang/utils/FileUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/DefaultController.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/DefaultController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/dao/BlogDao.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/dao/BlogDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Blog.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Blog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/service/BlogService.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/service/BlogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/BlogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/BlogServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/FileUtils.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/FileUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/Blog.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Blog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/blog.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-service.xml" afterPath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -183,16 +159,6 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Blog.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Blog.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Blog.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Blog.xml">
               <provider selected="true" editor-type-id="text-editor">
@@ -258,16 +224,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BlogService.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/BlogService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="BlogServiceImpl.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/BlogServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -282,7 +238,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="414">
@@ -292,6 +248,16 @@
                     <element signature="e#1056#1057#0" expanded="true" />
                     <element signature="e#1095#1096#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2140">
+                  <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -997,18 +963,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <marker date="1521795332000" expanded="true" signature="276:413" ph="INSERT INTO `Activity`... " />
-            <marker date="1521795332000" expanded="true" signature="551:624" ph="SELECT * FRO... Activity" />
-            <marker date="1521795332000" expanded="true" signature="551:625" ph="SELECT * FRO... Activity" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-17-GC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1017,14 +971,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,9 +1344,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1529,6 +1503,24 @@
             <element signature="e#1056#1057#0" expanded="true" />
             <element signature="e#1095#1096#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2140">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
