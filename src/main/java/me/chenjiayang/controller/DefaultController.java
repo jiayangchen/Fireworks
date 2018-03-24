@@ -1,11 +1,9 @@
 package me.chenjiayang.controller;
 
 import me.chenjiayang.entity.Activity;
-import me.chenjiayang.entity.Blog;
 import me.chenjiayang.service.ActivityService;
 import me.chenjiayang.service.BlogService;
 import me.chenjiayang.utils.Constant;
-import me.chenjiayang.utils.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
