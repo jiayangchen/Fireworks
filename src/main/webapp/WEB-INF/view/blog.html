@@ -42,13 +42,15 @@
                     <i class="fa fa-user" aria-hidden="true"></i> 作者 Jiayang
                 </div>
                 <div class="col-md-3 sub-tag">
-                    <i class="fa fa-eye" aria-hidden="true"></i> View 1234
+                    <i class="fa fa-eye" aria-hidden="true"></i> View {{currentBlog.viewCount}}
                 </div>
                 <div class="col-md-3 sub-tag">
-                    <i class="fa fa-calendar-o" aria-hidden="true"></i> 发布日期 2018-02-12
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i> 发布日期 {{publishDate}}
                 </div>
                 <div class="col-md-3 sub-tag">
-                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 赞 12
+                    <div style="cursor: pointer" ng-click="favourite()">
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 赞 {{currentBlog.favouriteCount}}
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -56,9 +58,6 @@
                     <div id="blog"></div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <input type="hidden" id="blogFileName" value="${blogFileName}" />
         </div>
     </div>
 </div>

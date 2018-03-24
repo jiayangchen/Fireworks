@@ -10,17 +10,22 @@
 
     <select id="getAllDescByPage" parameterType="java.lang.Integer" resultType="me.chenjiayang.entity.Blog">
         SELECT * FROM `Blog`
-        ORDER BY createTime LIMIT #{page}, 11
+        ORDER BY createTime DESC LIMIT #{page}, 11
     </select>
 
     <insert id="insert" parameterType="Blog">
-        INSERT INTO `Blog`(blogTitle, createTime, blogContent, blogTag)
-        VALUES (#{blogTitle}, #{createTime}, #{blogContent}, #{blogTag})
+        INSERT INTO `Blog`(blogName, createTime, blogTitle, blogTag, viewCount, favouriteCount)
+        VALUES (#{blogName}, #{createTime}, #{blogTitle}, #{blogTag}, #{viewCount}, #{favouriteCount})
     </insert>
 
     <update id="update" parameterType="Blog">
         UPDATE `Blog`
-        SET blogContent = #{blogContent}
-        WHERE blogTitle = #{blogTitle}
+        SET blogTitle = #{blogTitle}, blogTag = #{blogTag}, viewCount = #{viewCount}, favouriteCount = #{favouriteCount}
+        WHERE blogName = #{blogName}
     </update>
+
+    <select id="getBlogByName" parameterType="java.lang.String" resultType="me.chenjiayang.entity.Blog">
+        SELECT * FROM `Blog`
+        WHERE blogName = #{blogName}
+    </select>
 </mapper>

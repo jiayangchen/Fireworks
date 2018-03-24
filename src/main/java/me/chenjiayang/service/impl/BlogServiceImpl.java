@@ -36,7 +36,11 @@ public class BlogServiceImpl implements BlogService {
 
     @Override
     public List<Blog> listBlogTitle(int page) {
-        List<Blog> blogList = blogDao.getAllDescByPage(page);
-        return blogList;
+        return blogDao.getAllDescByPage(page);
+    }
+
+    @Override
+    public Blog findBlogByName(String blogName) {
+        return blogDao.getBlogByName(blogName);
     }
 }

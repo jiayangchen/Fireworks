@@ -12,4 +12,5 @@ public interface BlogDao {
     List<Blog> getAllDescByPage(int page);
     void insert(Blog blog);
     void update(Blog blog);
+    Blog getBlogByName(String blogName);
 }

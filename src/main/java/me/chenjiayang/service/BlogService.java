@@ -12,4 +12,5 @@ public interface BlogService {
     void addBlog(Blog blog);
     void updateBlog(Blog blog);
     List<Blog> listBlogTitle(int page);
+    Blog findBlogByName(String blogName);
 }

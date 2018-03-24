@@ -9,20 +9,8 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         '我把最深沉的秘密放在那里。',
         '你不懂我，我不怪你。'
     ];
+
     $scope.tagList = ['日志','Java','Android','跨年','数据库'];
-    // $scope.titleList = [
-    //     '每个人都有一个死角， 自己走不出来，别人也闯不进去。',
-    //     '我把最深沉的秘密放在那里。',
-    //     '你不懂我，我不怪你。',
-    //     '《分布式服务架构：原理、设计与实战》全',
-    //     '保障线上服务健康、可靠的最佳方案，是一本架构级、实战型的重',
-    //     '然后提出了保证分布式服务系统架构一致性的方案和模式',
-    //     '最后给出了一个简要的非功能质量的技术评审提纲。实践上，首先提供',
-    //     '《分布式服务架构：原理、设计与实战》以分布式服务',
-    //     '架构的设计与实现为主线，由浅入深地介绍了分布式服务架构的',
-    //     '方方面面，主要包括理论和实践两部分。理论上，首',
-    //     '先介绍了服务架构的背景，以及从服务化架构到微服务架构的演化'
-    // ];
 
     $scope.initActivityPage = function (page) {
         var activityList = [];
@@ -55,6 +43,23 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         return dateTime.getFullYear() + '-' + $scope.formatDateItem(dateTime.getMonth()) + '-' + $scope.formatDateItem(dateTime.getDay());
     };
 
+    $scope.preBlogList = function () {
+        $scope.blogTitlePage = $scope.blogTitlePage - 11;
+        if($scope.blogTitlePage < 0) {
+            $scope.pageWarning = '已经到顶啦 :)';
+            $("#warnModal").modal('show');
+            $scope.blogTitlePage = $scope.blogTitlePage + 11;
+            $scope.listBlogTitle($scope.blogTitlePage);
+        } else {
+            $scope.listBlogTitle($scope.blogTitlePage);
+        }
+    };
+
+    $scope.nextBlogList = function () {
+        $scope.blogTitlePage = $scope.blogTitlePage + 11;
+        $scope.listBlogTitle($scope.blogTitlePage);
+    };
+
     $scope.preActivity = function () {
         $scope.page = $scope.page - 3;
         if($scope.page < 0) {
@@ -79,15 +84,25 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         return item.toString();
     };
 
-    $scope.listBlogTitle = function () {
+    $scope.listBlogTitle = function (page) {
         $http.get('/listBlogTitle', {
             params: {
-                page: $scope.blogTitlePage
+                page: page
             }
         }).then(function (response) {
-            $scope.titleList = response.data;
+            var result = response.data;
+            $scope.titleList = result.blogList;
+            $scope.dateList = result.dateList;
+
+            if($scope.titleList.length == 0) {
+                $scope.pageWarning = '已经到顶底啦 :)';
+                $("#warnModal").modal('show');
+                $scope.blogTitlePage = $scope.blogTitlePage - 11;
+                $scope.listBlogTitle($scope.blogTitlePage);
+            }
         })
     };
+
 
     $scope.initActivityPage($scope.page);
     $scope.listBlogTitle($scope.blogTitlePage);
