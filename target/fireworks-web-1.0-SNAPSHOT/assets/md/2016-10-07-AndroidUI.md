@@ -1,15 +1,6 @@
----
-layout: post
-title: "暑期大作业Android相关整理"
-subtitle: "三、UI框架篇"
-date: 2016-10-07
-author: "ChenJY"
-header-img: "img/android.jpg"
-catalog: true
-tags: 
-    - Android
-    - 技术整理
----
+# 暑期大作业Android相关整理
+
+## 三、UI框架篇
 
 ### Titanic for Android 浮动文字
 * [https://github.com/RomainPiel/Titanic](https://github.com/RomainPiel/Titanic)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "数据库事务 ACID 和 隔离级别"
+title: ""
 subtitle: ""
 date: 2017-07-28
 author: "ChenJY"
@@ -9,6 +9,8 @@ catalog: true
 tags: 
     - 数据库
 ---
+
+# 数据库事务 ACID 和 隔离级别
 
 一直不复习，今天回想的时候有些忘了，赶紧记录一下。
 

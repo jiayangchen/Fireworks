@@ -1,14 +1,6 @@
----
-layout: post
-title: "计算机网络 —— TCP、UDP 和 ARP 的知识点总结"
-subtitle: "三次握手，四次挥手详解，TCP 与 UDP 区别，ARP 工作原理详解"
-date: 2017-08-03
-author: "ChenJY"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - 计算机网络
----
+# 计算机网络 —— TCP、UDP 和 ARP 的知识点总结
+
+## 三次握手，四次挥手详解，TCP 与 UDP 区别，ARP 工作原理详解
 
 ### 三次握手
 ![image](http://blog.chinaunix.net/attachment/201310/1/28263175_1380611229SPU6.png)

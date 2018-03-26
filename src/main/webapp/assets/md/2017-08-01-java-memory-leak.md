@@ -1,14 +1,4 @@
----
-layout: post
-title: "【转载】Java 内存泄漏及避免方法"
-subtitle: ""
-date: 2017-08-01
-author: "X Wang"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - 转载
----
+# 【转载】Java 内存泄漏及避免方法
 
 > 原文链接： [X Wang](http://www.programcreek.com/2013/10/the-introduction-of-memory-leak-what-why-and-how/) 翻译： ImportNew.com - strongme  译文链接： http://www.importnew.com/12961.html
 

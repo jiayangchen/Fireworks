@@ -4,11 +4,6 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
     $scope.blogTitlePage = 0;
 
     $scope.introduction = "从来不求时间为我搁浅...";
-    $scope.recentBlog = [
-        '每个人都有一个死角， 自己走不出来，别人也闯不进去。',
-        '我把最深沉的秘密放在那里。',
-        '你不懂我，我不怪你。'
-    ];
 
     $scope.tagList = ['日志','Java','Android','跨年','数据库'];
 
@@ -84,6 +79,13 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         return item.toString();
     };
 
+    $scope.listDate = function () {
+        $http.get('listDate')
+            .then(function (response) {
+                $scope.dateList = response.data;
+            })
+    };
+
     $scope.listBlogTitle = function (page) {
         $http.get('/listBlogTitle', {
             params: {
@@ -92,8 +94,11 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         }).then(function (response) {
             var result = response.data;
             $scope.titleList = result.blogList;
-            $scope.dateList = result.dateList;
-
+            var recentBlogList = [];
+            for(var i=0; i<3; i++) {
+                recentBlogList.push($scope.titleList[i]);
+            }
+            $scope.recentBlog = recentBlogList;
             if($scope.titleList.length == 0) {
                 $scope.pageWarning = '已经到顶底啦 :)';
                 $("#warnModal").modal('show');
@@ -106,4 +111,5 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
 
     $scope.initActivityPage($scope.page);
     $scope.listBlogTitle($scope.blogTitlePage);
+    $scope.listDate();
 }]);

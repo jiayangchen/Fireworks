@@ -1,15 +1,6 @@
----
-layout: post
-title: "深入理解java虚拟机 —— Java GC算法"
-subtitle: "进一步了解GC中的各种算法"
-date: 2017-04-27
-author: "ChenJY"
-header-img: "img/java.jpg"
-catalog: true
-tags: 
-    - 读书笔记
-    - 深入理解Java虚拟机
----
+# 深入理解java虚拟机 —— Java GC算法
+
+## 进一步了解GC中的各种算法
 
 ### 标记清除
 第一步标记所有需要回收的对象，然后进行回收。不足一是效率问题，标记和清除两个过程的效率都不高；二是标记清除之后会产生大量不连续碎片，后续分配大对象时会无法找到足够的连续内存而不得不触发GC

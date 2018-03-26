@@ -3,6 +3,7 @@ package me.chenjiayang.controller;
 import com.alibaba.fastjson.JSONObject;
 import me.chenjiayang.entity.Blog;
 import me.chenjiayang.service.BlogService;
+import me.chenjiayang.utils.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -24,14 +25,10 @@ public class BlogController {
     @RequestMapping(value = "/blog/{blogFileName}",method = RequestMethod.GET)
     @ResponseBody
     public ModelAndView blog(@PathVariable("blogFileName") String blogFileName){
-        Blog blog = blogService.findBlogByName(buildCompleteBlogName(blogFileName));
+        Blog blog = blogService.findBlogByName(FileUtils.buildCompleteBlogName(blogFileName));
         blog.setViewCount(blog.getViewCount() + 1);
         blogService.updateBlog(blog);
         return new ModelAndView("blog");
-    }
-
-    private String buildCompleteBlogName(String blogName) {
-        return blogName + ".md";
     }
 
     @RequestMapping(value = "/favouriteBlog",method = RequestMethod.POST)
@@ -48,18 +45,29 @@ public class BlogController {
         return result;
     }
 
+    @RequestMapping(value = "/listDate",method = RequestMethod.GET)
+    @ResponseBody
+    public Set<String> listDate() {
+        List<Blog> blogList = blogService.findAll();
+        Set<String> dateList = new TreeSet<>(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o2.compareTo(o1);
+            }
+        });
+        for(Blog blog : blogList) {
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
+            dateList.add(sdf.format(new Date(blog.getCreateTime().getTime())));
+        }
+        return dateList;
+    }
+
     @RequestMapping(value = "/listBlogTitle",method = RequestMethod.GET)
     @ResponseBody
     public Map<String, Object> listBlogTitle(@RequestParam("page") int page){
         Map<String, Object> result = new HashMap<>();
         List<Blog> blogList = blogService.listBlogTitle(page);
-        Set<String> dateList = new TreeSet<>();
-        for(Blog blog : blogList) {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
-            dateList.add(sdf.format(new Date(blog.getCreateTime().getTime())));
-        }
         result.put("blogList", blogList);
-        result.put("dateList", dateList);
         return result;
     }
 

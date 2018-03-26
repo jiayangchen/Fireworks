@@ -1,14 +1,4 @@
----
-layout: post
-title: "聊一聊 Spring MVC"
-subtitle: ""
-date: 2017-07-31
-author: "ChenJY"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - Spring
----
+# 说到 Spring MVC 的时候我们都在谈什么
 
 ### MVC框架是什么
 

@@ -1,14 +1,4 @@
----
-layout: post
-title: "Spring 加载过程 & IOC & Spring AOP"
-subtitle: ""
-date: 2017-07-31
-author: "ChenJY"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - Spring
----
+# Spring 加载过程 & IOC & Spring AOP
 
 > [Spring源码分析：配置文件读取流程](http://www.importnew.com/24446.html)，作者：五月的仓颉
 > [Spring的IOC原理](http://www.importnew.com/14751.html)，作者：朱勇Ray

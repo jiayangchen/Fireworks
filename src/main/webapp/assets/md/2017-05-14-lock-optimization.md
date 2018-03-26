@@ -1,15 +1,4 @@
----
-layout: post
-title: "深入理解java虚拟机 —— Java 锁优化"
-subtitle: ""
-date: 2017-05-14
-author: "ChenJY"
-header-img: "img/java.jpg"
-catalog: true
-tags: 
-    - 读书笔记
-    - 深入理解Java虚拟机
----
+# 深入理解java虚拟机 —— Java 锁优化
 
 高效并发是JDK1.5到JDK1.6的一个重要改进，Hotspot虚拟机开发团队在这个版本上花了大量精力去实现各种锁优化技术，如自旋适应锁、锁消除、锁粗化、轻量级锁和偏向锁，这些技术都是为了在线程之间更高效的共享数据以及解决竞争的问题。
 

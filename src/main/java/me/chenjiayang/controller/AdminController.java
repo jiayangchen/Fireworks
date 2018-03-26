@@ -2,8 +2,11 @@ package me.chenjiayang.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import me.chenjiayang.entity.Activity;
+import me.chenjiayang.entity.Blog;
 import me.chenjiayang.service.ActivityService;
+import me.chenjiayang.service.BlogService;
 import me.chenjiayang.utils.Constant;
+import me.chenjiayang.utils.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +29,9 @@ public class AdminController {
 
     @Autowired
     private ActivityService activityService;
+
+    @Autowired
+    private BlogService blogService;
 
     @RequestMapping(value = "/admin",method = RequestMethod.GET)
     @ResponseBody
@@ -54,6 +60,25 @@ public class AdminController {
         return result;
     }
 
+    @RequestMapping(value="/addBlog", method = RequestMethod.POST)
+    @ResponseBody
+    public JSONObject addBlog(@RequestBody Blog blog) {
+        JSONObject result = new JSONObject();
+        try {
+            Blog isBlogExist = blogService.findBlogByName(blog.getBlogName());
+            if(isBlogExist == null) {
+                blogService.addBlog(blog);
+            } else {
+                blogService.updateBlog(blog);
+            }
+            result.put("status", Constant.SUCCESS.getStatusCode());
+        } catch (Exception e) {
+            logger.error("addBlog", e);
+            result.put("status", Constant.SERVER_ERROR.getStatusCode());
+        }
+        return result;
+    }
+
     @RequestMapping(value="/uploadMarkdown", method = RequestMethod.POST)
     @ResponseBody
     public JSONObject upload(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
@@ -67,14 +92,14 @@ public class AdminController {
             }
             try {
                 file.transferTo(new File(storePath + File.separator + fileName));
-                result.put("status", 200);
+                result.put("status", Constant.SUCCESS.getStatusCode());
             } catch (Exception e) {
                 logger.error("uploadMarkdown", e.getMessage());
-                result.put("status", 500);
+                result.put("status", Constant.SERVER_ERROR.getStatusCode());
                 result.put("errorMsg", e.getMessage());
             }
         } else {
-            result.put("status", 500);
+            result.put("status", Constant.SERVER_ERROR.getStatusCode());
             result.put("errorMsg", "empty file");
         }
         return result;

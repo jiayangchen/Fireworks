@@ -1,15 +1,6 @@
----
-layout: post
-title: "Recitation 2 A Fast File System for UNIX "
-subtitle: "论文阅读笔记 | Notes when reading papers"
-date: 2016-10-06
-author: "ChenJY"
-header-img: "img/recitation.jpg"
-catalog:    true
-tags:
-    - 论文笔记
-    - CSE
----
+# Recitation 2 A Fast File System for UNIX 
+
+## 论文阅读笔记 | Notes when reading papers
 
 >Please read Fast File System (PDF), and answer following questions:
 >

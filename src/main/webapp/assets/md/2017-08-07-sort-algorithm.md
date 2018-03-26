@@ -1,14 +1,6 @@
----
-layout: post
-title: "各种排序算法总结"
-subtitle: "排序算是最基础的数据结构和算法知识了"
-date: 2017-08-07
-author: "ChenJY"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - 算法
----
+# 各种排序算法总结
+
+## 排序算是最基础的数据结构和算法知识了
 
 ![image](http://blog.chinaunix.net/attachment/201201/18/21457204_1326898064RUxx.jpg)
 

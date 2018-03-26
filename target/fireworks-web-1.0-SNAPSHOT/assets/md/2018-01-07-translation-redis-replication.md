@@ -1,15 +1,4 @@
----
-layout: post
-title: "【译】Redis Replication"
-subtitle: ""
-date: 2018-01-07
-author: "ChenJY"
-header-img: "img/code1.jpg"
-catalog: true
-tags: 
-    - Redis
-    - 翻译
----
+# 【译】Redis Replication
 
 > 翻译自 [Redis Replication](https://redis.io/topics/replication)
 

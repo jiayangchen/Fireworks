@@ -1,15 +1,4 @@
----
-layout: post
-title: "【转载】Java 集合类 —— ConcurrentHashMap 初探"
-subtitle: ""
-date: 2017-07-31
-author: "Hosee"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - Java Collections
-    - 转载
----
+# 【转载】Java 集合类 —— ConcurrentHashMap 初探
 
 > [原文链接](https://my.oschina.net/hosee/blog/639352)，作者：Hosee
 > [原文链接](http://www.importnew.com/23610.html)，作者：占小狼

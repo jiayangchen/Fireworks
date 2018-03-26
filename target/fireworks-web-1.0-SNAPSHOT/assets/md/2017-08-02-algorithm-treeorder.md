@@ -1,15 +1,4 @@
----
-layout: post
-title: "【转载】Java 递归、非递归遍历二叉树"
-subtitle: ""
-date: 2017-08-02
-author: "hairongtian"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - 数据结构
-    - 转载
----
+# 【转载】Java 递归、非递归遍历二叉树
 
 > [原文链接](http://blog.csdn.net/hairongtian/article/details/7930937)，作者：hairongtian
 

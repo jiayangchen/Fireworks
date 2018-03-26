@@ -1,15 +1,6 @@
----
-layout: post
-title: "Redis 内部数据结构及存储方式"
-subtitle: "关于 Redis 内部的五种存储数据结构的底层实现"
-date: 2017-11-25
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - Redis 设计与实现
-    - 读书笔记
----
+# Redis 内部数据结构及存储方式
+
+## 关于 Redis 内部的五种存储数据结构的底层实现
 
 我们都知道，Redis 是一个 KV 数据库，常用于缓存，现在也承担一部分数据持久化的工作。而其中，Redis 内部的每个键值对 `<K,V>` 都是由对象组成的，其中键总是一个字符串对象，而值可以是 String、List、Dictionary、Set 和 SortedSet 这五种，多样的存储对象也给 Redis 提供了更为丰富的使用场景，经由开发者的定制化程度高，一定程度上促使了 Redis 使用的快速普及。本文中，主要讨论这五种数据结构的底层实现，我们会发现，其实这五种结构都是彼此有关联的，并不是各个独立设计产生，Redis 的设计者很巧妙地将一些共性的特征通过合理的组织使之能更好的被复用。
 

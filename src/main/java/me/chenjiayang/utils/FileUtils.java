@@ -14,6 +14,10 @@ public class FileUtils {
 
     private static final String path = "/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/webapp/assets/md";
 
+    public static String buildCompleteBlogName(String blogName) {
+        return blogName + ".md";
+    }
+
     public static Set<String> traverseFolder() {
         Set<String> fileNameList = new HashSet<>();
         File file = new File(path);

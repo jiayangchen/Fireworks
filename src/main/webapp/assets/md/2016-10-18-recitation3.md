@@ -1,15 +1,6 @@
----
-layout: post
-title: "Recitation 3 Eraser: A Dynamic Data Race Detector for Multithreaded Programs "
-subtitle: "论文阅读笔记 | Notes when reading papers"
-date: 2016-10-18
-author: "ChenJY"
-header-img: "img/recitation.jpg"
-catalog:    true
-tags:
-    - 论文笔记
-    - CSE
----
+# Recitation 3 Eraser: A Dynamic Data Race Detector for Multithreaded Programs 
+
+## 论文阅读笔记 | Notes when reading papers
 
 >Read the Eraser paper, and think about the following questions as you read the paper:
 >

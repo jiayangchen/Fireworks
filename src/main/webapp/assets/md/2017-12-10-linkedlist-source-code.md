@@ -1,15 +1,6 @@
----
-layout: post
-title: "LinkedList 源码分析"
-subtitle: "LinkedList 的源码分析和整体类层结构分析"
-date: 2017-12-10
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - JDK 源码分析
-    - Java Collections
----
+# LinkedList 源码分析
+
+## LinkedList 的源码分析和整体类层结构分析
 
 ### UML 类图
 ![](http://o9oomuync.bkt.clouddn.com/linkedlistLinkedlist%E7%B1%BB%E5%9B%BE.png)

@@ -1,14 +1,6 @@
----
-layout: post
-title: "Java 判断单链表是否有环"
-subtitle: "三种方法"
-date: 2017-08-03
-author: "ChenJY"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - 算法
----
+# Java 判断单链表是否有环
+
+## 三种方法
 
 ### 方法一：
 

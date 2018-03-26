@@ -1,15 +1,6 @@
----
-layout: post
-title: "ArrayList 源码分析"
-subtitle: "ArrayList 的源码分析和整体类层结构分析"
-date: 2017-12-09
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - JDK 源码分析
-    - Java Collections
----
+# ArrayList 源码分析
+
+## ArrayList 的源码分析和整体类层结构分析
 
 ### UML 图
 先看一下 `ArrayList` 涉及的 `UML 类图`，从大局上把握一下类结构：

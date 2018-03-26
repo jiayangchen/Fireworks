@@ -1,15 +1,6 @@
----
-layout: post
-title: "Recitation 1 Worse is Better "
-subtitle: "论文阅读笔记 | Notes when reading papers"
-date: 2016-09-25
-author: "ChenJY"
-header-img: "img/recitation.jpg"
-catalog:    true
-tags:
-    - 论文笔记
-    - CSE
----
+# Recitation 1 Worse is Better 
+
+## 论文阅读笔记 | Notes when reading papers
 
 >Please read Worse is Better, and answer following questions. Maybe you're not familar with LISP, don't be afraid, just finish the artical and try to get the main idea. Be critical to anything you are reading, since the artical is written more than 20 years ago, the environment has changed a lot since then. No worship.
 >

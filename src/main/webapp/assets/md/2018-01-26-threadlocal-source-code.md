@@ -1,15 +1,6 @@
----
-layout: post
-title: "深入解析 ThreadLocal 和 ThreadLocalMap"
-subtitle: "JDK 1.8 中 ThreadLocal api 简介、使用方法、源码分析和其内部类 ThreadLocalMap 的源码分析"
-date: 2018-01-26
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - JDK 源码分析
-    - Java Concurrent
----
+# 深入解析 ThreadLocal 和 ThreadLocalMap
+
+## JDK 1.8 中 ThreadLocal api 简介、使用方法、源码分析和其内部类 ThreadLocalMap 的源码分析
 
 ### Introduction
 最近琐事比较多，关于之前决定的阅读 jdk 1.8 源码的计划稍微耽搁了一个月，现在重新捡起来，本文来讲讲 java.lang 包下的 ThreadLocal 结构，先介绍一下 ThreadLocal 的基本用法，之后解析一下它的源码实现，ThreadLocal 字面意思是线程局部变量，能为当前线程存储独属的变量，每个线程往这个结构中读写是线程安全的，因为每个线程都有各自独立的副本不冲突。

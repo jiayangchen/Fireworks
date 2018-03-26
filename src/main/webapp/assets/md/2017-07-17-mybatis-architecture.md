@@ -1,15 +1,4 @@
----
-layout: post
-title: "【转载】MyBatis的架构设计以及实例分析"
-subtitle: ""
-date: 2017-07-17
-author: "亦山"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - MyBatis
-    - 转载
----
+# 【转载】MyBatis的架构设计以及实例分析
 
 最近实习的项目又用到 Mybatis 了，之前一直用 SSM 框架，但是因为时间紧任务重，从没深入研究过其中的原理，今天正好趁着这个机会，看了一篇讲的非常好的博文，作者也说可以在署名之后转载，因此贴上来。
 

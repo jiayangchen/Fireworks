@@ -1,13 +1,4 @@
----
-layout: post
-title: "收藏的关于函数式编程思想的文章"
-date: 2016-07-16
-header-img: "img/functional_coding.jpg"
-catalog: true
-tags: 
-    - 函数式编程
-    - 收藏
----
+# 收藏的关于函数式编程思想的文章
 
 ### 文章列表
 

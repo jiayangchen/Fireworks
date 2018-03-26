@@ -1,15 +1,6 @@
----
-layout: post
-title: "LinkedBlockingQueue 源码分析"
-subtitle: "JDK 1.8 中 LinkedBlockingQueue 的源码分析"
-date: 2018-01-26
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - JDK 源码分析
-    - Java Concurrent
----
+# LinkedBlockingQueue 源码分析
+
+## JDK 1.8 中 LinkedBlockingQueue 的源码分析
 
 ### 简介
 

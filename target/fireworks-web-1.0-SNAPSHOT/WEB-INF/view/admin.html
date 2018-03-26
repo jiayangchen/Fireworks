@@ -42,11 +42,22 @@
     <div class="col-md-3">
         <h4 class="upload-tag">上传博文</h4>
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
                 <input type="file" file-model="myFile">
             </div>
+        </div>
+        <div class="row" style="margin-top: 2%">
+            <div class="col-md-12">
+                <input type="text" class="form-control" ng-model="blogTitle" placeholder="博文标题">
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 2%">
+            <div class="col-md-10">
+                <input type="text" class="form-control" ng-model="blogTag" placeholder="博文标签，逗号分隔">
+            </div>
             <div class="col-md-2">
-                <button class="btn btn-default btn-sm" ng-click="save()" >保存</button>
+                <button class="btn btn-default btn-sm" ng-click="save()">保存</button>
             </div>
         </div>
     </div>

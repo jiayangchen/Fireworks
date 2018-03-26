@@ -1,14 +1,4 @@
----
-layout: post
-title: "在 Github Pages 搭建的静态博客中添加 https 访问"
-subtitle: ""
-date: 2017-12-25
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - 随笔
----
+# 在 Github Pages 搭建的静态博客中添加 https 访问
 
 先看配置完成之后的效果，如下图：
 

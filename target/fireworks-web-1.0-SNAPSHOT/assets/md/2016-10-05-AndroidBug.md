@@ -1,15 +1,6 @@
----
-layout: post
-title: "暑期大作业Android相关整理"
-subtitle: "二、Bug调试篇"
-date: 2016-10-05
-author: "ChenJY"
-header-img: "img/android.jpg"
-catalog: true
-tags: 
-    - Android
-    - 技术整理
----
+# 暑期大作业Android相关整理
+
+## 二、Bug调试篇
 
 ### 集成SDK构建项目报错："AGPBI: {"kind":"error","text":"warning..."
 * [https://help.aliyun.com/knowledge_detail/40001.html](https://help.aliyun.com/knowledge_detail/40001.html)

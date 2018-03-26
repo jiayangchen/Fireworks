@@ -1,15 +1,6 @@
----
-layout: post
-title: "HashMap 源码分析"
-subtitle: "长文慎入，HashMap 的源码分析和整体类层结构分析"
-date: 2017-12-11
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - JDK 源码分析
-    - Java Collections
----
+# HashMap 源码分析
+
+## 长文慎入，HashMap 的源码分析和整体类层结构分析
 
 ### UML 类图
 ![](http://o9oomuync.bkt.clouddn.com/hashmaphashmap%E7%B1%BB%E5%9B%BE.png)

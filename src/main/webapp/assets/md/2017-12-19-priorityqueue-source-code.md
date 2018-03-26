@@ -1,15 +1,6 @@
----
-layout: post
-title: "PriorityQueue 源码分析"
-subtitle: "PriorityQueue 的源码分析和整体类层结构分析"
-date: 2017-12-19
-author: "ChenJY"
-header-img: "img/websitear.jpg"
-catalog: true
-tags: 
-    - JDK 源码分析
-    - Java Collections
----
+# PriorityQueue 源码分析
+
+## PriorityQueue 的源码分析和整体类层结构分析
 
 ### UML diagram
 

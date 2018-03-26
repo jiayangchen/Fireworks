@@ -1,15 +1,4 @@
----
-layout: post
-title: "Java 注解工作原理"
-subtitle: ""
-date: 2017-08-30
-author: "ChenJY"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - Java 编程思想
-    - Java 注解
----
+# Java 注解工作原理
 
 ### 什么是注解
 注解也叫 `元数据`，为方便在代码中添加信息提供的一种形式化方法。它们可以提供用来完整描述程序所需的信息，而这些信息无法用 Java 来表达，因此注解使得我们能够以将由编译器来测试和验证的格式，存储有关程序的额外信息。注解同样还有利于代码阅读和编译器类型检查等。Java SE5 内置了三种，定义在 `java.lang` 中的注解：

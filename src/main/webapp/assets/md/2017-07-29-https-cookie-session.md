@@ -1,14 +1,4 @@
----
-layout: post
-title: "HTTP & HTTPS, Session & Cookie"
-subtitle: ""
-date: 2017-07-29
-author: "ChenJY"
-header-img: "img/db.jpg"
-catalog: true
-tags: 
-    - 计算机网络
----
+# HTTP & HTTPS, Session & Cookie
 
 ### HTTP 和 HTTPS 
 #### 基本概念

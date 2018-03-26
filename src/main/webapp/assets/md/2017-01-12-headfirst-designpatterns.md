@@ -1,14 +1,4 @@
----
-layout: post
-title: "设计模式一 —— 单例模式"
-subtitle: ""
-date: 2017-01-12
-author: "ChenJY"
-header-img: "img/design_patterns.jpg"
-catalog: true
-tags: 
-    - 设计模式
----
+# 设计模式一 —— 单例模式
 
 ### 概念：
 Java中单例模式是一种常见的设计模式，单例模式的写法有好几种，主要的包括三种：懒汉式、饿汉式、登记式、枚举式。

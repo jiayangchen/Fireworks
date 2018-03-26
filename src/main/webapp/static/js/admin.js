@@ -23,6 +23,25 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
             })
     };
 
+    $scope.uploadBlog = function (blogName) {
+        var blog = {
+            blogName: blogName,
+            blogTitle: $scope.blogTitle,
+            blogTag: $scope.blogTag,
+            viewCount: 0,
+            favouriteCount: 0,
+            createTime: new Date().getTime()
+        };
+        $http.post('/addBlog', blog)
+            .then(function (response) {
+                if(response.status == 200) {
+                    alert('博文插入/更新成功');
+                } else {
+                    alert('博文插入/更新失败');
+                }
+            })
+    };
+
     $scope.save = function() {
         var fd = new FormData();
         var file = document.querySelector('input[type=file]').files[0];
@@ -35,7 +54,7 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
             transformRequest: angular.identity
         }).then( function (response) {
             if(response.status == 200) {
-                alert("文件上传成功");
+                $scope.uploadBlog(file.name);
             } else {
                 alert(response.errorMsg);
             }
