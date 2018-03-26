@@ -26,7 +26,7 @@ public class CheckConsistenceTask {
 
     //*/5 * * * * ?
     //0 30 6 * * *
-    @Scheduled(cron = "*/10 * * * * ?")
+    @Scheduled(cron = "0 */1 * * * ?")
     public void checkdb2mdConsistence() {
         check();
     }

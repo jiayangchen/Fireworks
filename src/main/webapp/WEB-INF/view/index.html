@@ -72,14 +72,16 @@
         .activity-tag {
             text-align: center;
             margin-top: 8%;
+            font-family: cursive;
+            font-size: 22px;
         }
         .turnPage1 {
-            margin-left: 23%;
+            margin-left: 21%;
             position: fixed;
             bottom: 0;
         }
         .turnPage2 {
-            margin-left: 35%;
+            margin-left: 38%;
             position: fixed;
             bottom: 0;
         }
@@ -248,89 +250,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <!--<div class="row">-->
-            <!--<div class="col-md-12">-->
-                <!--<div class="am-slider am-slider-default photo-slider" data-am-flexslider id="demo-slider-0">-->
-                    <!--<ul class="am-slides">-->
-                        <!--<li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/bloghometown.jpeg" /></li>-->
-                        <!--<li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/blog%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170921164059.jpg" /></li>-->
-                        <!--<li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/blog%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170921161442.jpg" /></li>-->
-                        <!--<li><img class="photo" src="/assets/img/love.jpg" /></li>-->
-                        <!--<li><img class="photo" src="/assets/img/military_training.jpg" /></li>-->
-                        <!--<li><img class="photo" src="/assets/img/stadium.jpg" /></li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
 
-        <div class="row" style="margin-top: 3%">
-            <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-danger am-btn-lg am-animation-delay-1 four-btn"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;<span style="font-family: 'Trebuchet MS'">Gallery</span></button>
-            </div>
-            <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-warning am-btn-lg  am-animation-delay-2 four-btn"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;Music</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-primary am-btn-lg am-animation-delay-3 four-btn"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;&nbsp;Project</button>
-            </div>
-            <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-secondary am-btn-lg am-animation-delay-4 four-btn"><i class="fa fa-spinner" aria-hidden="true"></i>&nbsp;&nbsp;Activity</button>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <h5 class="activity-tag" style="font-weight: bold; color:#b4b4b4; cursor: pointer"><a href="/aboutme" style="text-decoration:none; color:#b4b4b4;"><span class="aboutme">Activity</span></a></h5>
-            </div>
-            <div class="col-md-12">
-                <hr class="divider">
-            </div>
-        </div>
-
-        <div class="row activity-area">
-            <div class="col-md-12" ng-repeat="activity in activityList">
-                <div class="cardView" style="margin-bottom: 2%">
-                    <div class="row">
-                        <div class="col-md-12" style="margin-top: 2%">
-                            <div class="col-md-10">
-                                <span class="activity-content">{{activity.content}}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 2%">
-                        <div class="col-md-6" style="margin-bottom: 2%">
-                            <span class="activity-location"> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;{{activity.location}}</span>
-                        </div>
-                        <div class="col-md-6">
-                            <span class="activity-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;{{activity.createTime}}</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <ul class="am-pagination turnPage1">
-                <li><a ng-click="preActivity()" style="cursor: pointer;"><i class="fa fa-angle-left" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Pre</span></a></li>
-                <li><a ng-click="nextActivity()" style="cursor: pointer;"><i class="fa fa-angle-right" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Next</span></a></li>
-            </ul>
-        </div>
-
-        <div class="modal fade" tabindex="-1" role="dialog" id="warnModal">
-            <div class="modal-dialog modal-sm" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <p style="text-align: center;vertical-align: middle;">{{pageWarning}}</p>
-                    </div>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
-    </div>
     <div class="col-md-6">
-        <div style="margin-right: 7%">
+        <div>
         <div class="row">
             <div class="col-md-8">
                 <div class="btn-group header-btn-group" role="group" aria-label="...">
@@ -388,6 +310,88 @@
                 </ul>
             </div>
         </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <!--<div class="row">-->
+        <!--<div class="col-md-12">-->
+        <!--<div class="am-slider am-slider-default photo-slider" data-am-flexslider id="demo-slider-0">-->
+        <!--<ul class="am-slides">-->
+        <!--<li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/bloghometown.jpeg" /></li>-->
+        <!--<li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/blog%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170921164059.jpg" /></li>-->
+        <!--<li><img class="photo" src="http://o9oomuync.bkt.clouddn.com/blog%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170921161442.jpg" /></li>-->
+        <!--<li><img class="photo" src="/assets/img/love.jpg" /></li>-->
+        <!--<li><img class="photo" src="/assets/img/military_training.jpg" /></li>-->
+        <!--<li><img class="photo" src="/assets/img/stadium.jpg" /></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div style="margin-right: 5%">
+        <div class="row" style="margin-top: 3%">
+            <div class="col-md-6">
+                <a href="/gallery"><button type="button" class="am-btn am-btn-danger am-btn-lg am-animation-delay-1 four-btn"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;<span style="font-family: 'Trebuchet MS'">Gallery</span></button></a>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="am-btn am-btn-warning am-btn-lg  am-animation-delay-2 four-btn"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;Music</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" class="am-btn am-btn-primary am-btn-lg am-animation-delay-3 four-btn"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;&nbsp;Project</button>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="am-btn am-btn-secondary am-btn-lg am-animation-delay-4 four-btn"><i class="fa fa-spinner" aria-hidden="true"></i>&nbsp;&nbsp;Activity</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="activity-tag" style="font-weight: bold; color:#b4b4b4; cursor: pointer"><span class="aboutme">Activity</span></h5>
+            </div>
+            <div class="col-md-12">
+                <hr class="divider">
+            </div>
+        </div>
+
+        <div class="row activity-area">
+            <div class="col-md-12" ng-repeat="activity in activityList">
+                <div class="cardView" style="margin-bottom: 2%">
+                    <div class="row">
+                        <div class="col-md-12" style="margin-top: 2%">
+                            <div class="col-md-10">
+                                <span class="activity-content">{{activity.content}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 2%">
+                        <div class="col-md-6" style="margin-bottom: 2%">
+                            <span class="activity-location"> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;{{activity.location}}</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="activity-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;{{activity.createTime}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="am-pagination turnPage1">
+                <li><a ng-click="preActivity()" style="cursor: pointer;"><i class="fa fa-angle-left" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Pre</span></a></li>
+                <li><a ng-click="nextActivity()" style="cursor: pointer;"><i class="fa fa-angle-right" aria-hidden="true" style="color: gray"></i> <span class="pageBtn">Next</span></a></li>
+            </ul>
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="warnModal">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p style="text-align: center;vertical-align: middle;">{{pageWarning}}</p>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
         </div>
     </div>
 

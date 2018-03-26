@@ -10,69 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b795382-677d-4f83-8c4a-5c5a588a5e04" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-23-wangjiaxin.md" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gallery.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/music.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/view/music.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/assets/md/resume_jiayangchen.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/chenjiayang/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/me/chenjiayang/controller/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/me/chenjiayang/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/classes/me/chenjiayang/controller/AdminController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/FileUtils.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/FileUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/chenjiayang/task/CheckConsistenceTask.java" afterPath="$PROJECT_DIR$/src/main/java/me/chenjiayang/task/CheckConsistenceTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/aboutme.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/aboutme.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-07-16-functional-programing.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-07-16-functional-programing.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-07-16-law-spirit-in-HongKong.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-07-16-law-spirit-in-HongKong.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-09-25-recitation1.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-09-25-recitation1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-05-AndroidBug.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-05-AndroidBug.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-06-recitation2.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-06-recitation2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-07-AndroidUI.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-07-AndroidUI.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-15-strangers-story.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-15-strangers-story.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-18-recitation3.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-10-18-recitation3.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-11-07-keluoze.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-11-07-keluoze.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-07-OpenGL.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-07-OpenGL.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-08-hongchenfireworks.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-08-hongchenfireworks.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-31-new-year-2017.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-31-new-year-2017.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-01-12-headfirst-designpatterns.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-01-12-headfirst-designpatterns.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-14-java-memory-area.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-14-java-memory-area.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-17-GC.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-17-GC.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-27-GC-algorithm.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-27-GC-algorithm.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-28-class-load.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-28-class-load.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-01-class-loader.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-01-class-loader.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-04-java-volatile.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-04-java-volatile.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-09-java-thread.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-09-java-thread.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-11-thread.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-11-thread.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-13-thread-security.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-13-thread-security.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-14-lock-optimization.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-14-lock-optimization.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-17-mybatis-architecture.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-17-mybatis-architecture.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-25-how-to-improve-search-efficiency.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-25-how-to-improve-search-efficiency.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-db-isolation.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-db-isolation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-sth-about-network.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-sth-about-network.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-29-copy.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-29-copy.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-29-https-cookie-session.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-29-https-cookie-session.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-concurrenthashmap.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-concurrenthashmap.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-spring-ioc-aop.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-spring-ioc-aop.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-springmvc.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-springmvc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-01-java-memory-leak.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-01-java-memory-leak.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-02-algorithm-treeorder.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-02-algorithm-treeorder.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-02-java-threadpool.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-02-java-threadpool.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-03-is-list-cycle.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-03-is-list-cycle.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-03-tcp-connection.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-03-tcp-connection.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-07-sort-algorithm.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-07-sort-algorithm.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-25-consistent-hash.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-25-consistent-hash.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-25-readwritelock.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-25-readwritelock.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-30-java-reflect.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-30-java-reflect.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-11-09-talk-about-architecture-in-website.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-11-09-talk-about-architecture-in-website.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-11-25-redis-data-structure.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-11-25-redis-data-structure.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-11-30-saysth-about-techbook.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-11-30-saysth-about-techbook.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-09-arraylist-source-code.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-09-arraylist-source-code.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-10-linkedlist-source-code.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-10-linkedlist-source-code.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-11-hashmap-source-code.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-11-hashmap-source-code.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-19-priorityqueue-source-code.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-19-priorityqueue-source-code.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-25-how-to-add-https-githubpages.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-25-how-to-add-https-githubpages.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-31-about-2017.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2017-12-31-about-2017.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-05-redis-replication.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-05-redis-replication.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-07-translation-redis-replication.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-07-translation-redis-replication.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-26-threadlocal-source-code.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-26-threadlocal-source-code.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-29-linkedBlockingQueue-source-code.md" afterPath="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-29-linkedBlockingQueue-source-code.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/admin.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/view/aboutme.html" afterPath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/view/aboutme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/view/index.html" afterPath="$PROJECT_DIR$/target/fireworks-web-1.0-SNAPSHOT/WEB-INF/view/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,104 +36,95 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7100193">
+    <splitter split-orientation="horizontal" split-proportion="0.89926064">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DefaultController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/DefaultController.java">
+          <file leaf-file-name="BlogServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/BlogServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-44">
-                  <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+                <state relative-caret-position="209">
+                  <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
+          <file leaf-file-name="GalleryDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/dao/GalleryDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="251">
-                  <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+                <state relative-caret-position="209">
+                  <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
                   <folding>
-                    <element signature="n#style#0;n#h5#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#h5#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="music.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/music.html">
+          <file leaf-file-name="GalleryService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/GalleryService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/AdminController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="366">
-                  <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+                <state relative-caret-position="247">
+                  <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
                   <folding>
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/FileUtils.java">
+          <file leaf-file-name="gallery.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/gallery.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                <state relative-caret-position="-76">
+                  <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Blog.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Blog.java">
+          <file leaf-file-name="GalleryController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/GalleryController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="86">
-                  <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-600">
-                  <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+                <state relative-caret-position="447">
+                  <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
                   <folding>
-                    <element signature="e#1710#1878#0" expanded="true" />
-                    <element signature="e#1877#1878#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GalleryServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/GalleryServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="376">
+                  <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1101#1102#0" expanded="true" />
+                    <element signature="e#1146#1147#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/admin.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="243">
+                  <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gallery.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="293">
+                  <caret line="54" column="62" lean-forward="true" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -190,12 +133,27 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/admin.js">
+          <file leaf-file-name="Photograph.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Photograph.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+                <state relative-caret-position="190">
+                  <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="316">
+                  <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="68" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#input#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#input#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -208,11 +166,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
-        <option value="JavaScript File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -232,6 +190,7 @@
       <find>listBlogTitle</find>
       <find>详情</find>
       <find>addBlog</find>
+      <find>abo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -253,20 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2016-12-31-new-year-2017.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-01-12-headfirst-designpatterns.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-14-java-memory-area.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-17-GC.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-27-GC-algorithm.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-28-class-load.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-01-class-loader.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-04-java-volatile.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-09-java-thread.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-11-thread.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-13-thread-security.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-14-lock-optimization.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-17-mybatis-architecture.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-25-how-to-improve-search-efficiency.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-db-isolation.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-sth-about-network.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-29-copy.md" />
@@ -297,13 +242,27 @@
         <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-26-threadlocal-source-code.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-29-linkedBlockingQueue-source-code.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/music.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html" />
         <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/music.js" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/aboutme.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/music.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Gallery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/dto/Gallery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/dao/GalleryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Photograph.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/Gallery.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/task/CheckConsistenceTask.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/service/GalleryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/GalleryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/GalleryController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/admin.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/gallery.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gallery.html" />
       </list>
     </option>
   </component>
@@ -400,6 +359,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chenjiayang" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fireworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fireworks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chenjiayang" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fireworks" type="b2602c69:ProjectViewProjectNode" />
@@ -537,16 +505,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/assets" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/assets/md" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/assets/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/static" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/assets" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/assets/md" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/assets/img" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -776,6 +744,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63845223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -787,9 +756,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24425635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2249093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26118502" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22532189" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26037195" sideWeight="0.5054602" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -797,7 +766,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.426844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -843,337 +812,28 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/AdminController.java</url>
-          <line>65</line>
+          <url>file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/GalleryController.java</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-14-java-memory-area.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-17-GC.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-27-GC-algorithm.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-04-28-class-load.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-01-class-loader.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-04-java-volatile.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-09-java-thread.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-11-thread.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-13-thread-security.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-05-14-lock-optimization.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-17-mybatis-architecture.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-25-how-to-improve-search-efficiency.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-db-isolation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-28-sth-about-network.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-29-copy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1522031855000" expanded="true" signature="1628:1818" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="1687:1700" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="1714:1722" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="1765:1778" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="1799:1807" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="1839:2146" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="1893:2142" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="3231:3682" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="3290:3303" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="3317:3325" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="3368:3381" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="3402:3410" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="3462:3678" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="3703:4192" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="3757:4188" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="4444:4622" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="4503:4516" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="4527:4535" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="4575:4588" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="4603:4611" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="4662:5296" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="4758:4771" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="4783:4791" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="4834:4847" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="4864:4872" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="4904:4917" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="4931:4939" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="4982:4995" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="5016:5024" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="5076:5292" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="5317:5820" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="5371:5816" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="6409:6851" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="6468:6481" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="6492:6500" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="6540:6553" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="6568:6576" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="6628:6847" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="6891:7586" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="6987:7000" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="7012:7020" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="7063:7076" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="7093:7101" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="7133:7146" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="7160:7168" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="7211:7224" ph=" { " />
-              <marker date="1522031855000" expanded="true" signature="7245:7253" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="7305:7582" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="7607:8346" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="7661:8342" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="8500:8542" ph="/**...*/" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-29-https-cookie-session.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-concurrenthashmap.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-spring-ioc-aop.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-07-31-springmvc.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-01-java-memory-leak.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-02-algorithm-treeorder.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1522031855000" expanded="true" signature="122:168" ph="..." />
-              <marker date="1522031855000" expanded="false" signature="327:342" ph=" { " />
-              <marker date="1522031855000" expanded="false" signature="351:361" ph=" }" />
-              <marker date="1522031855000" expanded="true" signature="433:613" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="684:862" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="935:1117" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="1191:1599" ph="{...}" />
-              <marker date="1522031855000" expanded="false" signature="1233:1242" ph="&lt;~&gt;" />
-              <marker date="1522031855000" expanded="true" signature="1672:2080" ph="{...}" />
-              <marker date="1522031855000" expanded="false" signature="1714:1723" ph="&lt;~&gt;" />
-              <marker date="1522031855000" expanded="true" signature="2155:2897" ph="{...}" />
-              <marker date="1522031855000" expanded="false" signature="2197:2206" ph="&lt;~&gt;" />
-              <marker date="1522031855000" expanded="false" signature="2251:2260" ph="&lt;~&gt;" />
-              <marker date="1522031855000" expanded="true" signature="2950:3808" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-02-java-threadpool.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2017-08-03-is-list-cycle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1522031856000" expanded="true" signature="1243:1294" ph="..." />
-              <marker date="1522031856000" expanded="true" signature="1297:1345" ph="/**...*/" />
-              <marker date="1522031856000" expanded="true" signature="1412:1852" ph="{...}" />
-              <marker date="1522031856000" expanded="true" signature="1943:2249" ph="{...}" />
-              <marker date="1522031856000" expanded="true" signature="2294:2674" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="1243:1294" ph="..." />
+              <marker date="1522036316000" expanded="true" signature="1297:1345" ph="/**...*/" />
+              <marker date="1522036316000" expanded="true" signature="1412:1852" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="1943:2249" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="2294:2674" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1230,14 +890,14 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1522031855000" expanded="true" signature="538:614" ph="@{...}" />
-              <marker date="1522031855000" expanded="true" signature="748:980" ph="..." />
-              <marker date="1522031855000" expanded="true" signature="982:1068" ph="@{...}" />
-              <marker date="1522031855000" expanded="true" signature="1249:1330" ph="..." />
-              <marker date="1522031855000" expanded="true" signature="1405:2093" ph="{...}" />
-              <marker date="1522031855000" expanded="true" signature="1792:1841" ph="/'unchecked', 'deprecation'/" />
-              <marker date="1522031855000" expanded="true" signature="2218:2283" ph="..." />
-              <marker date="1522031855000" expanded="true" signature="2358:3423" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="538:614" ph="@{...}" />
+              <marker date="1522036316000" expanded="true" signature="748:980" ph="..." />
+              <marker date="1522036316000" expanded="true" signature="982:1068" ph="@{...}" />
+              <marker date="1522036316000" expanded="true" signature="1249:1330" ph="..." />
+              <marker date="1522036316000" expanded="true" signature="1405:2093" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="1792:1841" ph="/'unchecked', 'deprecation'/" />
+              <marker date="1522036316000" expanded="true" signature="2218:2283" ph="..." />
+              <marker date="1522036316000" expanded="true" signature="2358:3423" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1283,28 +943,28 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1522032268000" expanded="true" signature="4595:4713" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="5025:5070" ph="/**...*/" />
-              <marker date="1522032268000" expanded="true" signature="5538:5601" ph="/**...*/" />
-              <marker date="1522032268000" expanded="true" signature="6148:6191" ph="/**...*/" />
-              <marker date="1522032268000" expanded="true" signature="7403:7433" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="8817:8978" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="8819:8880" ph="//..." />
-              <marker date="1522032268000" expanded="true" signature="9012:9027" ph=" { " />
-              <marker date="1522032268000" expanded="true" signature="9051:9061" ph=" }" />
-              <marker date="1522032268000" expanded="true" signature="9087:9400" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="9438:9453" ph=" { " />
-              <marker date="1522032268000" expanded="true" signature="9474:9484" ph=" }" />
-              <marker date="1522032268000" expanded="true" signature="9514:9780" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="9812:9827" ph=" { " />
-              <marker date="1522032268000" expanded="true" signature="9844:9854" ph=" }" />
-              <marker date="1522032268000" expanded="true" signature="9890:9905" ph=" { " />
-              <marker date="1522032268000" expanded="true" signature="9926:9936" ph=" }" />
-              <marker date="1522032268000" expanded="true" signature="9967:10373" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="10404:10586" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="10617:10878" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="10945:11265" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="11311:11429" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="4595:4713" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="5025:5070" ph="/**...*/" />
+              <marker date="1522036316000" expanded="true" signature="5538:5601" ph="/**...*/" />
+              <marker date="1522036316000" expanded="true" signature="6148:6191" ph="/**...*/" />
+              <marker date="1522036316000" expanded="true" signature="7403:7433" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="8817:8978" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="8819:8880" ph="//..." />
+              <marker date="1522036316000" expanded="true" signature="9012:9027" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="9051:9061" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="9087:9400" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="9438:9453" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="9474:9484" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="9514:9780" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="9812:9827" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="9844:9854" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="9890:9905" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="9926:9936" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="9967:10373" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="10404:10586" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="10617:10878" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="10945:11265" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="11311:11429" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1317,22 +977,22 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1522032268000" expanded="true" signature="6811:6961" ph="/**...*/" />
-              <marker date="1522032268000" expanded="true" signature="7259:7397" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="7547:7562" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="7602:7619" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="7659:7688" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="7783:7798" ph=" { " />
-              <marker date="1522032268000" expanded="true" signature="7853:7863" ph=" }" />
-              <marker date="1522032268000" expanded="true" signature="7909:8011" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="8059:8472" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="18899:18942" ph="/rawtypes, unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="21671:21991" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="21932:21947" ph=" { " />
-              <marker date="1522032268000" expanded="true" signature="21975:21985" ph=" }" />
-              <marker date="1522032268000" expanded="true" signature="22084:22236" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="22175:22190" ph=" { " />
-              <marker date="1522032268000" expanded="true" signature="22220:22230" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="6811:6961" ph="/**...*/" />
+              <marker date="1522036316000" expanded="true" signature="7259:7397" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="7547:7562" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="7602:7619" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="7659:7688" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="7783:7798" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="7853:7863" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="7909:8011" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="8059:8472" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="18899:18942" ph="/rawtypes, unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="21671:21991" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="21932:21947" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="21975:21985" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="22084:22236" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="22175:22190" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="22220:22230" ph=" }" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1345,17 +1005,17 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1522032268000" expanded="true" signature="3138:3168" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="3979:4009" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="4203:4233" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="9097:9209" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="9219:9249" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="9274:9816" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="9847:10778" ph="{...}" />
-              <marker date="1522032268000" expanded="true" signature="11008:11038" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="11462:11492" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="12090:12120" ph="/unchecked/" />
-              <marker date="1522032268000" expanded="true" signature="12782:12812" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="3138:3168" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="3979:4009" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="4203:4233" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="9097:9209" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="9219:9249" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="9274:9816" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="9847:10778" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="11008:11038" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="11462:11492" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="12090:12120" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="12782:12812" ph="/unchecked/" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1395,35 +1055,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-29-linkedBlockingQueue-source-code.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="6">
-            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-            <folding>
-              <marker date="1522032372000" expanded="true" signature="1144:1304" ph="/.../" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-26-threadlocal-source-code.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1522032372000" expanded="true" signature="1217:1352" ph="{...}" />
-              <marker date="1522032372000" expanded="true" signature="1296:1311" ph=" { " />
-              <marker date="1522032372000" expanded="true" signature="1336:1346" ph=" }" />
-              <marker date="1522032372000" expanded="true" signature="1418:1906" ph="{...}" />
-              <marker date="1522032372000" expanded="true" signature="1630:1870" ph="{...}" />
-              <marker date="1522032372000" expanded="true" signature="2958:2988" ph="/unchecked/" />
-              <marker date="1522032372000" expanded="true" signature="3850:3957" ph="/.../" />
-              <marker date="1522032372000" expanded="true" signature="4225:4605" ph="/**...*/" />
-              <marker date="1522032372000" expanded="true" signature="4682:4732" ph="/**...*/" />
-              <marker date="1522032372000" expanded="true" signature="4798:4854" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="1217:1352" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="1296:1311" ph=" { " />
+              <marker date="1522036316000" expanded="true" signature="1336:1346" ph=" }" />
+              <marker date="1522036316000" expanded="true" signature="1418:1906" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="1630:1870" ph="{...}" />
+              <marker date="1522036316000" expanded="true" signature="2958:2988" ph="/unchecked/" />
+              <marker date="1522036316000" expanded="true" signature="3850:3957" ph="/.../" />
+              <marker date="1522036316000" expanded="true" signature="4225:4605" ph="/**...*/" />
+              <marker date="1522036316000" expanded="true" signature="4682:4732" ph="/**...*/" />
+              <marker date="1522036316000" expanded="true" signature="4798:4854" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1452,56 +1099,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h5#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/music.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/DefaultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1514,10 +1115,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/md/2018-01-29-linkedBlockingQueue-source-code.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding>
+              <marker date="1522036316000" expanded="true" signature="1144:1304" ph="/.../" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="111" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="-469">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#1710#1878#0" expanded="true" />
             <element signature="e#1877#1878#0" expanded="true" />
@@ -1525,18 +1147,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/admin.js">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="633" column="19" lean-forward="false" selection-start-line="633" selection-start-column="19" selection-end-line="633" selection-end-column="19" />
+          <folding>
+            <element signature="e#23072#23073#0" expanded="false" />
+            <element signature="e#23112#23113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="737">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/handlebars.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/RestfulController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="353" column="36" lean-forward="true" selection-start-line="353" selection-start-column="16" selection-end-line="353" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/aboutme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/BlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Blog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521876387000" expanded="true" signature="286:306" ph="SELECT * FRO... Blog" />
+            <marker date="1521876387000" expanded="true" signature="439:510" ph="SELECT * FRO... Blog" />
+            <marker date="1521876387000" expanded="true" signature="580:770" ph="INSERT INTO `Blog`... " />
+            <marker date="1521876387000" expanded="true" signature="840:1011" ph="UPDATE `Blog... " />
+            <marker date="1521876387000" expanded="true" signature="1140:1197" ph="SELECT * FRO... Blog" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1521876387000" expanded="true" signature="276:413" ph="INSERT INTO `Activity`... " />
+            <marker date="1521876387000" expanded="true" signature="551:625" ph="SELECT * FRO... Activity" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/dto/Gallery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../redis-related/maven-jedis/repository/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/task/CheckConsistenceTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Gallery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1522047975000" expanded="true" signature="277:419" ph="INSERT INTO `Photograph`... " />
+            <marker date="1522047975000" expanded="true" signature="518:564" ph="SELECT * FRO... Photograph" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/ActivityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../redis-related/maven-jedis/repository/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/dao/GalleryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/GalleryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/BlogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/service/impl/GalleryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/entity/Photograph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/chenjiayang/controller/GalleryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="54" column="62" lean-forward="true" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
           <folding />
         </state>
       </provider>

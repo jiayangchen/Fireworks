@@ -7,6 +7,7 @@ import me.chenjiayang.service.ActivityService;
 import me.chenjiayang.service.BlogService;
 import me.chenjiayang.utils.Constant;
 import me.chenjiayang.utils.FileUtils;
+import me.chenjiayang.utils.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,8 +51,13 @@ public class AdminController {
     public JSONObject addActivity (@RequestBody Activity activity) {
         JSONObject result = new JSONObject();
         try {
-            activityService.addActivity(activity);
-            result.put("status", Constant.SUCCESS.getStatusCode());
+            if(!StringUtils.isEmpty(activity.getContent())) {
+                activityService.addActivity(activity);
+                result.put("status", Constant.SUCCESS.getStatusCode());
+            } else {
+                result.put("status", Constant.SERVER_ERROR.getStatusCode());
+                result.put("message", "empty content");
+            }
         } catch (Exception e) {
             result.put("status", Constant.SERVER_ERROR.getStatusCode());
             result.put("message", e.getMessage());

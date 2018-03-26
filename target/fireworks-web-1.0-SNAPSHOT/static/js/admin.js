@@ -4,6 +4,9 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
     $scope.loginUsername = null;
     $scope.loginPassword = null;
     $scope.activityInfo = null;
+    $scope.imgSrc = '';
+    $scope.imgDesc = '';
+    $scope.imgDateAndPlace = '';
 
     $scope.addActivity = function () {
         var activity = {
@@ -38,6 +41,22 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
                     alert('博文插入/更新成功');
                 } else {
                     alert('博文插入/更新失败');
+                }
+            })
+    };
+
+    $scope.addPhotograph = function () {
+        var photoGraph = {
+            src: $scope.imgSrc,
+            desc: $scope.imgDesc,
+            filmDateAndPlace: $scope.imgDateAndPlace,
+            createTime: new Date().getTime()
+        };
+
+        $http.post('/addPhotograph', photoGraph)
+            .then(function (response) {
+                if(response.status == 200) {
+                    alert('图片插入成功');
                 }
             })
     };

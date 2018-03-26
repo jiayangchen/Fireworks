@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="me.chenjiayang.dao.GalleryDao">
+
+    <insert id="insert" parameterType="Photograph">
+        INSERT INTO `Photograph` (`src`, `desc`, `filmDateAndPlace`,`createTime`)
+        VALUES (#{src}, #{desc}, #{filmDateAndPlace}, #{createTime})
+    </insert>
+
+    <select id="getGallery" resultType="me.chenjiayang.entity.Photograph">
+        SELECT * FROM `Photograph` ORDER BY createTime
+    </select>
+
+</mapper>
