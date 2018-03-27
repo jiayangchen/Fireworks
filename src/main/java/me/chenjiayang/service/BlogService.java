@@ -2,6 +2,8 @@ package me.chenjiayang.service;
 
 import me.chenjiayang.entity.Blog;
 
+import java.sql.Timestamp;
+import java.text.ParseException;
 import java.util.List;
 
 /**
@@ -12,5 +14,6 @@ public interface BlogService {
     void addBlog(Blog blog);
     void updateBlog(Blog blog);
     List<Blog> listBlogTitle(int page);
+    List<Blog> listBlogTitleByDate(String month, int page) throws ParseException;
     Blog findBlogByName(String blogName);
 }

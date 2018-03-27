@@ -9,6 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.sql.Timestamp;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -68,6 +70,15 @@ public class BlogController {
         Map<String, Object> result = new HashMap<>();
         List<Blog> blogList = blogService.listBlogTitle(page);
         result.put("blogList", blogList);
+        return result;
+    }
+
+    @RequestMapping(value = "/listBlogTitleByDate",method = RequestMethod.GET)
+    @ResponseBody
+    public Map<String, Object> listBlogTitle(@RequestParam("month") String month,
+                                             @RequestParam("page") int page) throws ParseException {
+        Map<String, Object> result = new HashMap<>();
+        result.put("blogList", blogService.listBlogTitleByDate(month, page));
         return result;
     }
 

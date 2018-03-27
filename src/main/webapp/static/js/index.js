@@ -2,6 +2,9 @@ var app = angular.module('fireworks', []);
 app.controller('FireworksIndexController', ['$scope', '$http', '$compile', function ($scope, $http, $compile) {
     $scope.page = 0;
     $scope.blogTitlePage = 0;
+    $scope.isDateListChosen = false;
+    $scope.dateChosen = null;
+    $scope.isRecentBlogLoaded = false;
 
     $scope.introduction = "从来不求时间为我搁浅...";
 
@@ -30,6 +33,19 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
                 $scope.activityList = activityList;
             }
 
+        })
+    };
+
+    $scope.filterBlogByDate = function (date) {
+        $scope.dateChosen = date;
+        $scope.isDateListChosen = true;
+        $http.get('/listBlogTitleByDate', {
+            params: {
+                month: date,
+                page: 0
+            }
+        }).then(function (response) {
+            $scope.titleList = response.data.blogList;
         })
     };
 
@@ -94,11 +110,16 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         }).then(function (response) {
             var result = response.data;
             $scope.titleList = result.blogList;
-            var recentBlogList = [];
-            for(var i=0; i<3; i++) {
-                recentBlogList.push($scope.titleList[i]);
+
+            if(!$scope.isRecentBlogLoaded) {
+                var recentBlogList = [];
+                for(var i=0; i<3; i++) {
+                    recentBlogList.push($scope.titleList[i]);
+                }
+                $scope.recentBlog = recentBlogList;
+                $scope.isRecentBlogLoaded = true;
             }
-            $scope.recentBlog = recentBlogList;
+
             if($scope.titleList.length == 0) {
                 $scope.pageWarning = '已经到顶底啦 :)';
                 $("#warnModal").modal('show');
@@ -107,7 +128,6 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
             }
         })
     };
-
 
     $scope.initActivityPage($scope.page);
     $scope.listBlogTitle($scope.blogTitlePage);
