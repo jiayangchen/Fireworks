@@ -26,53 +26,88 @@
         .upload-tag {
             margin-top: 8%;
         }
+        ul.nav-tabs{
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        }
+        ul.nav-tabs li{
+            margin: 0;
+            border-top: 1px solid #ddd;
+        }
+        ul.nav-tabs li:first-child{
+            border-top: none;
+        }
+        ul.nav-tabs li a{
+            margin: 0;
+            padding: 8px 16px;
+            border-radius: 0;
+        }
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+        ul.nav-tabs li:first-child a{
+            border-radius: 4px 4px 0 0;
+        }
+        ul.nav-tabs li:last-child a{
+            border-radius: 0 0 4px 4px;
+        }
+        ul.nav-tabs.affix{
+            top: 30px; /* Set the top position of pinned element */
+        }
     </style>
 </head>
 <body>
-
+<div class="container">
 <div class="row" ng-app="fireworks" ng-controller="FireworksAdminController">
-    <div class="col-md-4">
-        <div class="col-md-11">
-        <h4 class="activityTitle">发布动态</h4>
-        <textarea class="form-control activityInput" rows="3" ng-model="activityInfo" placeholder="动态内容"></textarea>
-        <button class="btn btn-default btn-sm activityBtn pull-right" ng-click="addActivity()">添加</button>
-        </div>
-    </div>
 
-    <div class="col-md-4">
-        <h4 class="upload-tag">上传博文</h4>
-        <div class="row">
-            <div class="col-md-12">
-                <input type="file" file-model="myFile">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 2%">
-            <div class="col-md-12">
-                <input type="text" class="form-control" ng-model="blogTitle" placeholder="博文标题">
-            </div>
-        </div>
+    <!--<div class="col-md-4">-->
+        <!--<div class="col-md-11">-->
+        <!--<h4 class="activityTitle">发布动态</h4>-->
+        <!--<textarea class="form-control activityInput" rows="3" ng-model="activityInfo" placeholder="动态内容"></textarea>-->
+        <!--<button class="btn btn-default btn-sm activityBtn pull-right" ng-click="addActivity()">添加</button>-->
+        <!--</div>-->
+    <!--</div>-->
 
-        <div class="row" style="margin-top: 2%">
-            <div class="col-md-10">
-                <input type="text" class="form-control" ng-model="blogTag" placeholder="博文标签，逗号分隔">
-            </div>
-            <div class="col-md-2">
-                <button class="btn btn-default btn-sm" ng-click="save()">保存</button>
-            </div>
-        </div>
-    </div>
+    <!--<div class="col-md-4">-->
+        <!--<h4 class="upload-tag">上传博文</h4>-->
+        <!--<div class="row">-->
+            <!--<div class="col-md-12">-->
+                <!--<input type="file" file-model="myFile">-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row" style="margin-top: 2%">-->
+            <!--<div class="col-md-12">-->
+                <!--<input type="text" class="form-control" ng-model="blogTitle" placeholder="博文标题">-->
+            <!--</div>-->
+        <!--</div>-->
 
-    <div class="col-md-4">
-        <div class="col-md-12" style="margin-top: 8%">
-            <h4>增加照片</h4>
-            <input type="text" class="form-control" ng-model="imgSrc" placeholder="图片 src">
-            <input type="text" class="form-control" ng-model="imgDesc" placeholder="图片主题" style="margin-top: 1%">
-            <input type="text" class="form-control" ng-model="imgDateAndPlace" placeholder="拍摄时间和地点" style="margin-top: 1%">
-            <button class="btn btn-default btn-sm pull-right" ng-click="addPhotograph()" style="margin-top: 1%">添加</button>
-        </div>
+        <!--<div class="row" style="margin-top: 2%">-->
+            <!--<div class="col-md-10">-->
+                <!--<input type="text" class="form-control" ng-model="blogTag" placeholder="博文标签，逗号分隔">-->
+            <!--</div>-->
+            <!--<div class="col-md-2">-->
+                <!--<button class="btn btn-default btn-sm" ng-click="save()">保存</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
 
-    </div>
+    <!--<div class="col-md-4">-->
+        <!--<div class="col-md-12" style="margin-top: 8%">-->
+            <!--<h4>增加照片</h4>-->
+            <!--<input type="text" class="form-control" ng-model="imgSrc" placeholder="图片 src">-->
+            <!--<input type="text" class="form-control" ng-model="imgDesc" placeholder="图片主题" style="margin-top: 1%">-->
+            <!--<input type="text" class="form-control" ng-model="imgDateAndPlace" placeholder="拍摄时间和地点" style="margin-top: 1%">-->
+            <!--<button class="btn btn-default btn-sm pull-right" ng-click="addPhotograph()" style="margin-top: 1%">添加</button>-->
+        <!--</div>-->
 
+    <!--</div>-->
+
+</div>
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
