@@ -51,6 +51,7 @@
             font-weight: lighter;
             text-align: left;
             margin-left: 5%;
+            font-family: initial;
         }
         .btn-tag {
             margin-left: 1%;
@@ -164,8 +165,9 @@
             font-size: 22px;
         }
         .blogTitle {
-            font-family: unset;
-            margin-left: 5%;
+            margin-left: 1%;
+            font-family: initial;
+            font-size: 20px;
         }
         .super-link {
             color: black;
@@ -177,6 +179,47 @@
         }
         .musicItem {
 
+        }
+        .blogInfo {
+            font-size: 14px;
+            font-family: initial;
+            margin-left: 1%;
+            font-weight: bolder;
+            color: #999;
+        }
+        .blogInfoContent {
+            font-size: 14px;
+            color: #3354AA;
+            font-weight: lighter;
+        }
+        .tag-view-border {
+            border: solid;
+            border-color: darkorange;
+            border-width: 1px;
+            color: darkorange;
+            font-size: 12px;
+            padding-left: 3px;
+            padding-bottom: 2px;
+            padding-top: 2px;
+            padding-right: 3px;
+            margin-left: 35%;
+        }
+        .tag-favourite-border {
+            border: solid;
+            border-color: darkblue;
+            border-width: 1px;
+            padding-left: 3px;
+            padding-bottom: 2px;
+            padding-top: 2px;
+            padding-right: 3px;
+            color: darkblue;
+            font-size: 12px;
+            margin-left: 5%;
+        }
+        .tag-content {
+            margin-left: 5%;
+            font-size: 12px;
+            color: dimgray;
         }
     </style>
 </head>
@@ -232,7 +275,7 @@
             </div>
             <div class="col-md-12">
                 <ul class="am-list recent-blog-list">
-                    <li ng-repeat="item in recentBlog"><a href="#" class="am-text-truncate"><i class="fa fa-circle-o" aria-hidden="true"></i> {{item.blogTitle}}</a></li>
+                    <li ng-repeat="item in recentBlog"><a href="#" class="am-text-truncate">{{item.blogTitle}}</a></li>
                 </ul>
             </div>
         </div>
@@ -304,10 +347,16 @@
                 <li ng-repeat="x in titleList" style="vertical-align: middle;">
                     <div class="am-g">
                         <div class="am-u-md-9" style="margin-top: 2.5%;">
-                            <a href="/blog/{{x.blogName}}" class="am-text-truncate title"><i class="fa fa-circle-o" aria-hidden="true"></i> <span class="blogTitle">{{x.blogTitle}}</span></a>
+                            <a href="/blog/{{x.blogName}}" class="am-text-truncate title"><span class="blogTitle">{{x.blogTitle}}</span></a>
                         </div>
-                        <div class="am-u-md-3" style="margin-top: 2.5%;">
-                            <p class="am-text-truncate publishDate">{{x.createTime | date:'yyyy-MM-dd'}} </p>
+                        <div class="am-u-md-3"></div>
+                    </div>
+                    <div class="am-g">
+                        <div class="am-u-md-9" style="margin-top: 1%;margin-bottom: 1%;">
+                            <span class="blogInfo">作者：</span><span class="blogInfoContent">Jiayang</span> | <span class="blogInfo">时间：</span><span class="blogInfoContent">{{x.createTime | date:'yyyy-MM-dd'}}</span> | <span class="blogInfo">标签：</span><span class="blogInfoContent">Tag</span>
+                        </div>
+                        <div class="am-u-md-3" style="margin-top: 1%;margin-bottom: 1%;">
+                            <span class="tag-view-border">阅读</span><span class="tag-content">{{x.viewCount}}</span><span class="tag-favourite-border">赞</span><span class="tag-content">{{x.favouriteCount}}</span>
                         </div>
                     </div>
                 </li>
@@ -398,7 +447,7 @@
             <div class="am-offcanvas-content">
                 <div class="row">
                     <div class="col-md-10" style="text-align: center;">
-                        <span class="musicTabTitle"><i class="fa fa-music" aria-hidden="true"></i> 音乐列表</span>
+                        <span class="musicTabTitle"><i class="fa fa-music" aria-hidden="true"></i></span>
                     </div>
                 </div>
                 <div class="row">
