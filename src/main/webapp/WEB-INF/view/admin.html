@@ -21,9 +21,13 @@
         }
         .activityTitle {
             margin-top: 2%;
+            font-weight: bold;
+            margin-bottom: 2%;
         }
         .upload-tag {
             margin-top: 2%;
+            font-weight: bold;
+            margin-bottom: 2%;
         }
     </style>
 </head>
@@ -68,7 +72,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 style="margin-top: 5%">管理博文，点击单元格可编辑</h4>
+                        <h4 style="margin-top: 5%;font-weight: bold;margin-bottom: 2%;">管理博文，点击单元格可编辑</h4>
                     </div>
                     <div class="col-md-12">
                         <table class="layui-hide" lay-filter="test" id="test"></table>
@@ -87,7 +91,7 @@
             <div class="tab-pane fade" id="gallery">
                 <div class="col-md-10">
                     <div class="col-md-12" style="margin-top: 2%">
-                        <h4>增加照片</h4>
+                        <h4 class="activityTitle">增加照片</h4>
                         <input type="text" class="form-control" ng-model="imgSrc" placeholder="图片 src">
                         <input type="text" class="form-control" ng-model="imgDesc" placeholder="图片主题" style="margin-top: 1%">
                         <input type="text" class="form-control" ng-model="imgDateAndPlace" placeholder="拍摄时间和地点" style="margin-top: 1%">
