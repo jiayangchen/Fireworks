@@ -170,6 +170,14 @@
         .super-link {
             color: black;
         }
+        .musicTabTitle {
+            font-size: 20px;
+            font-family: cursive;
+            text-align: center;
+        }
+        .musicItem {
+
+        }
     </style>
 </head>
 <body>
@@ -259,11 +267,22 @@
 
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-calendar" aria-hidden="true"></i> 日期
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 归档
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li ng-repeat="date in dateList"><a ng-click="filterBlogByDate(date)">{{date}}</a></li>
+                            <li ng-repeat="item in dateList">
+                                <a>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            {{item.date}}
+                                        </div>
+                                        <div class="col-md-2">
+                                            <span class="am-badge am-badge-primary">{{item.number}} 篇</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="btn-group" role="group">
@@ -279,14 +298,14 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="am-input-group am-input-group-default searchBtn">
-                    <input type="text" class="am-form-field">
-                    <span class="am-input-group-btn">
-                      <button class="am-btn am-btn-default" type="button" style="background-color: white"><span class="am-icon-search"></span></button>
-                    </span>
-                </div>
-            </div>
+            <!--<div class="col-md-4">-->
+                <!--<div class="am-input-group am-input-group-default searchBtn">-->
+                    <!--<input type="text" class="am-form-field">-->
+                    <!--<span class="am-input-group-btn">-->
+                      <!--<button class="am-btn am-btn-default" type="button" style="background-color: white"><span class="am-icon-search"></span></button>-->
+                    <!--</span>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
         <div class="row">
             <ul class="am-list am-list-border blogList">
@@ -320,7 +339,7 @@
                 <a href="/gallery"><button type="button" class="am-btn am-btn-danger am-btn-lg am-animation-delay-1 four-btn"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;<span style="font-family: 'Trebuchet MS'">Gallery</span></button></a>
             </div>
             <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-warning am-btn-lg  am-animation-delay-2 four-btn"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;Music</button>
+                <button type="button" class="am-btn am-btn-warning am-btn-lg  am-animation-delay-2 four-btn" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;Music</button>
             </div>
         </div>
         <div class="row">
@@ -328,7 +347,7 @@
                 <button type="button" class="am-btn am-btn-primary am-btn-lg am-animation-delay-3 four-btn"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;&nbsp;Project</button>
             </div>
             <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-secondary am-btn-lg am-animation-delay-4 four-btn"><i class="fa fa-spinner" aria-hidden="true"></i>&nbsp;&nbsp;Activity</button>
+                <button type="button" class="am-btn am-btn-secondary am-btn-lg am-animation-delay-4 four-btn"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;Statistics</button>
             </div>
         </div>
 
@@ -378,6 +397,25 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
+        </div>
+    </div>
+
+    <!-- 侧边栏内容 -->
+    <div id="doc-oc-demo2" class="am-offcanvas">
+        <div class="am-offcanvas-bar">
+            <div class="am-offcanvas-content">
+                <div class="row">
+                    <div class="col-md-10" style="text-align: center;">
+                        <span class="musicTabTitle"><i class="fa fa-music" aria-hidden="true"></i> 音乐列表</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="//music.163.com/outchain/player?type=2&id=17217944&auto=0&height=66"></iframe>
+                </div>
+                <div class="row">
+                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="//music.163.com/outchain/player?type=2&id=28285910&auto=0&height=66"></iframe>
+                </div>
+            </div>
         </div>
     </div>
 

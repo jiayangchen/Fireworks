@@ -1,6 +1,7 @@
 package me.chenjiayang.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import me.chenjiayang.dto.Archive;
 import me.chenjiayang.entity.Blog;
 import me.chenjiayang.service.BlogService;
 import me.chenjiayang.utils.FileUtils;
@@ -49,19 +50,8 @@ public class BlogController {
 
     @RequestMapping(value = "/listDate",method = RequestMethod.GET)
     @ResponseBody
-    public Set<String> listDate() {
-        List<Blog> blogList = blogService.findAll();
-        Set<String> dateList = new TreeSet<>(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o2.compareTo(o1);
-            }
-        });
-        for(Blog blog : blogList) {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
-            dateList.add(sdf.format(new Date(blog.getCreateTime().getTime())));
-        }
-        return dateList;
+    public Set<Archive> listDate() {
+        return blogService.findArchives();
     }
 
     @RequestMapping(value = "/listBlogTitle",method = RequestMethod.GET)

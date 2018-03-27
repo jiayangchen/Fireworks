@@ -5,9 +5,7 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
     $scope.isDateListChosen = false;
     $scope.dateChosen = null;
     $scope.isRecentBlogLoaded = false;
-
     $scope.introduction = "从来不求时间为我搁浅...";
-
     $scope.tagList = ['日志','Java','Android','跨年','数据库'];
 
     $scope.initActivityPage = function (page) {
@@ -36,18 +34,18 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
         })
     };
 
-    $scope.filterBlogByDate = function (date) {
-        $scope.dateChosen = date;
-        $scope.isDateListChosen = true;
-        $http.get('/listBlogTitleByDate', {
-            params: {
-                month: date,
-                page: 0
-            }
-        }).then(function (response) {
-            $scope.titleList = response.data.blogList;
-        })
-    };
+    // $scope.filterBlogByDate = function (date) {
+    //     $scope.dateChosen = date;
+    //     $scope.isDateListChosen = true;
+    //     $http.get('/listBlogTitleByDate', {
+    //         params: {
+    //             month: date,
+    //             page: 0
+    //         }
+    //     }).then(function (response) {
+    //         $scope.titleList = response.data.blogList;
+    //     })
+    // };
 
     $scope.transferDate = function (time) {
         var dateTime = new Date(time);
@@ -96,7 +94,7 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
     };
 
     $scope.listDate = function () {
-        $http.get('listDate')
+        $http.get('/listDate')
             .then(function (response) {
                 $scope.dateList = response.data;
             })
