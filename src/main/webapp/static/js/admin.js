@@ -26,6 +26,17 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
             })
     };
 
+    $scope.editBlog = function (blog) {
+        $http.post('/addBlog', blog)
+            .then(function (response) {
+                if(response.status == 200) {
+                    alert('博文编辑成功');
+                } else {
+                    alert('博文编辑失败');
+                }
+            })
+    };
+
     $scope.uploadBlog = function (blogName) {
         var blog = {
             blogName: blogName,
@@ -82,5 +93,63 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
 
     $scope.loginAuth = function () {
         alert($scope.loginUsername + ' ' + $scope.loginPassword);
+    };
+
+    function showBlogTable (data) {
+        layui.use('table', function(){
+            var table = layui.table;
+            table.on('edit(test)', function(obj){
+                var value = obj.value   //得到修改后的值
+                    ,data = obj.data    //得到所在行所有键值
+                    ,field = obj.field; //得到字段
+                var blog = {
+                    id: data.id,
+                    blogName: data.blogName,
+                    blogTitle: data.blogTitle,
+                    blogTag: data.blogTag,
+                    viewCount: data.viewCount,
+                    favouriteCount: data.favouriteCount,
+                    createTime: data.createTime
+                };
+                $scope.editBlog(blog);
+            });
+
+            table.on('tool(test)', function(obj){
+                var data = obj.data;      //获得当前行数据
+                var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+                var tr = obj.tr;          //获得当前行 tr 的DOM对象
+                if(layEvent === 'del'){ //删除
+                    layer.confirm('真的删除行么', function(index){
+                        obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
+                        layer.close(index);
+                        //向服务端发送删除指令
+                        console.log(data);
+                    });
+                }
+            });
+
+            table.render({
+                elem: '#test'
+                ,cols: [[
+                    {field:'id', width: 10, title: 'ID', sort: true}
+                    ,{field:'blogName', title: '文件名'}
+                    ,{field:'blogTitle', edit: 'text', title: '标题'}
+                    ,{field:'blogTag', title: '标签', edit: 'text'}
+                    ,{field:'viewCount', title: '阅读量', edit: 'text', sort: true}
+                    ,{field:'favouriteCount', title: '点赞数', edit: 'text', sort: true}
+                    ,{field:'id', title: '操作', toolbar: '#barDemo'}
+                ]]
+                ,page: true
+                ,data: data
+            });
+        });
     }
+
+    $scope.initPage = function () {
+        $http.get('/listAllBlog')
+            .then(function (response) {
+                showBlogTable(response.data);
+            })
+    };
+    $scope.initPage();
 }]);

@@ -36,7 +36,7 @@ public class BlogController {
 
     @RequestMapping(value = "/favouriteBlog",method = RequestMethod.POST)
     @ResponseBody
-    public JSONObject listBlogTitle(@RequestBody Blog blog){
+    public JSONObject favouriteBlog(@RequestBody Blog blog){
         JSONObject result = new JSONObject();
         try {
             blog.setFavouriteCount(blog.getFavouriteCount() + 1);
@@ -46,6 +46,12 @@ public class BlogController {
             result.put("status", 500);
         }
         return result;
+    }
+
+    @RequestMapping(value = "/listAllBlog",method = RequestMethod.GET)
+    @ResponseBody
+    public List<Blog> listAllBlog() {
+        return blogService.findAll();
     }
 
     @RequestMapping(value = "/listDate",method = RequestMethod.GET)
