@@ -5,6 +5,7 @@
 ![](https://img.shields.io/badge/mybatis-3.2.6-green.svg)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
+![](http://o9oomuync.bkt.clouddn.com/fireworkslocalhost_8080_.png)
 
 ### 技术栈
 fireworks 是一个博客系统，前端基于 Bootstrap、AmazonUI、Angularjs，后端基于 SpringMVC、Mybatis，博文采用 Markdown 上传
