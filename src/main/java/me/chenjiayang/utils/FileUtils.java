@@ -12,6 +12,7 @@ import java.util.*;
  */
 public class FileUtils {
 
+    //private static final String path = "/data/tomcat/apache-tomcat-8.0.50/webapps/fireworks-web-1.0-SNAPSHOT/assets/md";
     private static final String path = "/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/webapp/assets/md";
 
     public static String buildCompleteBlogName(String blogName) {
