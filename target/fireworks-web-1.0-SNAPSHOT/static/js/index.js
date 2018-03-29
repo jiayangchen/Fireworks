@@ -2,11 +2,14 @@ var app = angular.module('fireworks', []);
 app.controller('FireworksIndexController', ['$scope', '$http', '$compile', function ($scope, $http, $compile) {
     $scope.page = 0;
     $scope.blogTitlePage = 0;
+    $scope.splitPage = 10;
     $scope.isDateListChosen = false;
     $scope.dateChosen = null;
     $scope.isRecentBlogLoaded = false;
     $scope.introduction = "从来不求时间为我搁浅...";
     $scope.tagList = ['日志','Java','Android','跨年','数据库'];
+    $scope.totalPage = 0;
+    $scope.currentPage = 1;
 
     $scope.initActivityPage = function (page) {
         var activityList = [];
@@ -53,19 +56,21 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
     };
 
     $scope.preBlogList = function () {
-        $scope.blogTitlePage = $scope.blogTitlePage - 11;
+        $scope.blogTitlePage = $scope.blogTitlePage - $scope.splitPage;
         if($scope.blogTitlePage < 0) {
             $scope.pageWarning = '已经到顶啦 :)';
             $("#warnModal").modal('show');
-            $scope.blogTitlePage = $scope.blogTitlePage + 11;
+            $scope.blogTitlePage = $scope.blogTitlePage + $scope.splitPage;
             $scope.listBlogTitle($scope.blogTitlePage);
         } else {
+            $scope.currentPage = $scope.currentPage - 1;
             $scope.listBlogTitle($scope.blogTitlePage);
         }
     };
 
     $scope.nextBlogList = function () {
-        $scope.blogTitlePage = $scope.blogTitlePage + 11;
+        $scope.currentPage = $scope.currentPage + 1;
+        $scope.blogTitlePage = $scope.blogTitlePage + $scope.splitPage;
         $scope.listBlogTitle($scope.blogTitlePage);
     };
 
@@ -119,14 +124,24 @@ app.controller('FireworksIndexController', ['$scope', '$http', '$compile', funct
             }
 
             if($scope.titleList.length == 0) {
-                $scope.pageWarning = '已经到顶底啦 :)';
+                $scope.currentPage = $scope.currentPage - 1;
+                $scope.pageWarning = '已经到底啦 :)';
                 $("#warnModal").modal('show');
-                $scope.blogTitlePage = $scope.blogTitlePage - 11;
+                $scope.blogTitlePage = $scope.blogTitlePage - $scope.splitPage;
                 $scope.listBlogTitle($scope.blogTitlePage);
             }
+
         })
     };
 
+    $scope.getTotalPageNum = function () {
+        $http.get('/findTotalPageNumber')
+            .then(function (response) {
+                $scope.totalPage = response.data;
+            })
+    };
+
+    $scope.getTotalPageNum();
     $scope.initActivityPage($scope.page);
     $scope.listBlogTitle($scope.blogTitlePage);
     $scope.listDate();

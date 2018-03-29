@@ -10,7 +10,7 @@
 
     <select id="getAllDescByPage" parameterType="java.lang.Integer" resultType="me.chenjiayang.entity.Blog">
         SELECT * FROM `Blog`
-        ORDER BY createTime DESC LIMIT #{page}, 11
+        ORDER BY createTime DESC LIMIT #{page}, 10
     </select>
 
     <insert id="insert" parameterType="Blog">
@@ -32,6 +32,6 @@
     <select id="getBlogByDate" resultType="me.chenjiayang.entity.Blog">
         SELECT * FROM `Blog`
         WHERE createTime &gt;= #{0} AND createTime &lt;= #{1}
-        ORDER BY createTime LIMIT #{2}, 11
+        ORDER BY createTime LIMIT #{2}, 10
     </select>
 </mapper>

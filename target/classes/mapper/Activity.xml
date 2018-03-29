@@ -15,4 +15,8 @@
         LIMIT #{page}, 3
     </select>
 
+    <select id="getAll" resultType="me.chenjiayang.entity.Activity">
+        SELECT * FROM `Activity` ORDER BY createTime DESC
+    </select>
+
 </mapper>

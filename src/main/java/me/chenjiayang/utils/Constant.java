@@ -4,7 +4,9 @@ package me.chenjiayang.utils;
  * create by chenjiayang on 2018/3/23
  */
 public enum Constant {
-    SUCCESS("OK", 200), SERVER_ERROR("SERVER_ERROR", 500);
+    SUCCESS("OK", 200),
+    SERVER_ERROR("SERVER_ERROR", 500);
+
     private String name;
     private int statusCode;
 

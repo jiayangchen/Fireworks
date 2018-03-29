@@ -8,6 +8,18 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
     $scope.imgDesc = '';
     $scope.imgDateAndPlace = '';
 
+    $scope.transferDate = function (time) {
+        var dateTime = new Date(time);
+        return dateTime.getFullYear() + '-' + $scope.formatDateItem(dateTime.getMonth()) + '-' + $scope.formatDateItem(dateTime.getDay());
+    };
+
+    $scope.formatDateItem = function (item) {
+        if(item < 10) {
+            return '0' + item.toString();
+        }
+        return item.toString();
+    };
+
     $scope.addActivity = function () {
         var activity = {
             content: $scope.activityInfo,
@@ -95,6 +107,59 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
         alert($scope.loginUsername + ' ' + $scope.loginPassword);
     };
 
+    function showAcitivtyTable(data) {
+        layui.use('table', function(){
+            var table = layui.table;
+            // table.on('edit(test)', function(obj){
+            //     var value = obj.value   //得到修改后的值
+            //         ,data = obj.data    //得到所在行所有键值
+            //         ,field = obj.field; //得到字段
+            //     var blog = {
+            //         id: data.id,
+            //         blogName: data.blogName,
+            //         blogTitle: data.blogTitle,
+            //         blogTag: data.blogTag,
+            //         viewCount: data.viewCount,
+            //         favouriteCount: data.favouriteCount,
+            //         createTime: data.createTime
+            //     };
+            //     $scope.editBlog(blog);
+            // });
+
+            table.on('tool(activityTable)', function(obj){
+                var data = obj.data;      //获得当前行数据
+                var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+                var tr = obj.tr;          //获得当前行 tr 的DOM对象
+                if(layEvent === 'del'){ //删除
+                    layer.confirm('真的删除行么', function(index){
+                        obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
+                        layer.close(index);
+                        //向服务端发送删除指令
+                        console.log(data);
+                    });
+                }
+            });
+
+            table.render({
+                elem: '#activityTable'
+                ,cols: [[
+                    {field:'id', width:50, title: 'ID'}
+                    ,{field:'content', width:300, title: '动态内容', edit: 'text'}
+                    ,{field:'location', width:90, edit: 'text', title: '地点'}
+                    ,{field:'imgUrl', width:90, title: '图片url', edit: 'text'}
+                    ,{field:'createTime', width:100, title: '创建时间', sort: true, templet: function(d){
+                        return '<span>' + $scope.transferDate(d.createTime) + '</span>'
+                    }}
+                    ,{field:'id', width:100, title: '操作', toolbar: '#barDemo'}
+                ]]
+                ,page: true
+                ,data: data
+            });
+        });
+    }
+
+
+
     function showBlogTable (data) {
         layui.use('table', function(){
             var table = layui.table;
@@ -145,11 +210,24 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
         });
     }
 
-    $scope.initPage = function () {
+    $scope.initBlogArrangementPage = function () {
         $http.get('/listAllBlog')
             .then(function (response) {
                 showBlogTable(response.data);
             })
     };
+
+    $scope.initActivityArrangement = function () {
+        $http.get('/listAllActivity')
+            .then(function (response) {
+                showAcitivtyTable(response.data);
+            })
+    };
+
+    $scope.initPage = function () {
+        $scope.initBlogArrangementPage();
+        $scope.initActivityArrangement();
+    };
+
     $scope.initPage();
 }]);

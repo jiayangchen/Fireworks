@@ -13,4 +13,5 @@ import java.util.List;
 public interface ActivityDao {
     void insert(Activity activity);
     List<Activity> getActivityByPage(int page);
+    List<Activity> getAll();
 }

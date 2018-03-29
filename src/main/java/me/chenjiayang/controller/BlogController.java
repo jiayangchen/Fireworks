@@ -2,7 +2,9 @@ package me.chenjiayang.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import me.chenjiayang.dto.Archive;
+import me.chenjiayang.entity.Activity;
 import me.chenjiayang.entity.Blog;
+import me.chenjiayang.service.ActivityService;
 import me.chenjiayang.service.BlogService;
 import me.chenjiayang.utils.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,9 @@ public class BlogController {
 
     @Autowired
     private BlogService blogService;
+
+    @Autowired
+    private ActivityService activityService;
 
     @RequestMapping(value = "/blog/{blogFileName}",method = RequestMethod.GET)
     @ResponseBody
@@ -52,6 +57,23 @@ public class BlogController {
     @ResponseBody
     public List<Blog> listAllBlog() {
         return blogService.findAll();
+    }
+
+    @RequestMapping(value = "/findTotalPageNumber",method = RequestMethod.GET)
+    @ResponseBody
+    public Integer findTotalPageNumber() {
+        int size =  blogService.findAll().size();
+        if(size % 10 == 0) {
+            return size / 10;
+        } else {
+            return (size / 10) + 1;
+        }
+    }
+
+    @RequestMapping(value = "/listAllActivity",method = RequestMethod.GET)
+    @ResponseBody
+    public List<Activity> listAllActivity() {
+        return activityService.findAll();
     }
 
     @RequestMapping(value = "/listDate",method = RequestMethod.GET)
