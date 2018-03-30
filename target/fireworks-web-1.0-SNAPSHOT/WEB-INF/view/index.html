@@ -116,6 +116,35 @@
         .four-btn {
             width: 100%;
             margin-top: 1%;
+            height: 100px;
+        }
+        .btn-gallery-bg {
+            background-image: url('/assets/img/gallery-bg.png');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 100% 100%;
+        }
+        .btn-music-bg {
+            background-image: url('/assets/img/music-bg.png');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 100% 100%;
+        }
+        .btn-project-bg {
+            background-image: url('/assets/img/project-bg.png');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 100% 100%;
+        }
+        .btn-statistics-bg {
+            background-image: url('/assets/img/statistics-bg.png');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 100% 100%;
         }
         .activity-location {
             text-align: left;
@@ -217,6 +246,14 @@
             margin-left: 5%;
             font-size: 12px;
             color: dimgray;
+        }
+        .four-btn-font {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .four-btn-font:hover {
+            font-size: 28px;
         }
     </style>
 </head>
@@ -379,18 +416,18 @@
         <div style="margin-right: 5%">
         <div class="row" style="margin-top: 11%">
             <div class="col-md-6">
-                <a href="/gallery"><button type="button" class="am-btn am-btn-danger am-btn-lg am-animation-delay-1 four-btn"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;<span style="font-family: 'Trebuchet MS'">Gallery</span></button></a>
+                <a href="/gallery"><button type="button" class="am-btn am-btn-lg four-btn btn-gallery-bg"><span class="four-btn-font"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;Gallery</span></button></a>
             </div>
             <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-warning am-btn-lg  am-animation-delay-2 four-btn" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;Music</button>
+                <button type="button" class="am-btn am-btn-lg four-btn btn-music-bg" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><span class="four-btn-font"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;Music</span></button>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a href="/project"><button type="button" class="am-btn am-btn-primary am-btn-lg am-animation-delay-3 four-btn"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;&nbsp;Project</button></a>
+                <a href="/project"><button type="button" class="am-btn am-btn-lg four-btn btn-project-bg"><span class="four-btn-font"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;&nbsp;Project</span></button></a>
             </div>
             <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-secondary am-btn-lg am-animation-delay-4 four-btn"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;Statistics</button>
+                <button type="button" class="am-btn am-btn-lg four-btn btn-statistics-bg"><span class="four-btn-font"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;Statistics</span></button>
             </div>
         </div>
 
