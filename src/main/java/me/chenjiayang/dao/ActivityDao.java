@@ -10,6 +10,7 @@ import java.util.List;
  * create by chenjiayang on 2018/3/22
  */
 
+@Component
 public interface ActivityDao {
     void insert(Activity activity);
     List<Activity> getActivityByPage(int page);
