@@ -61,12 +61,12 @@ public class BlogController {
 
     @RequestMapping(value = "/findTotalPageNumber",method = RequestMethod.GET)
     @ResponseBody
-    public Integer findTotalPageNumber() {
+    public Integer findTotalPageNumber(@RequestParam("capacity") int capacity) {
         int size =  blogService.findAll().size();
-        if(size % 10 == 0) {
-            return size / 10;
+        if(size % capacity == 0) {
+            return size / capacity;
         } else {
-            return (size / 10) + 1;
+            return (size / capacity) + 1;
         }
     }
 
@@ -84,9 +84,10 @@ public class BlogController {
 
     @RequestMapping(value = "/listBlogTitle",method = RequestMethod.GET)
     @ResponseBody
-    public Map<String, Object> listBlogTitle(@RequestParam("page") int page){
+    public Map<String, Object> listBlogTitle(@RequestParam("page") int page,
+                                             @RequestParam("capacity") int capacity){
         Map<String, Object> result = new HashMap<>();
-        List<Blog> blogList = blogService.listBlogTitle(page);
+        List<Blog> blogList = blogService.listBlogTitle(page,capacity);
         result.put("blogList", blogList);
         return result;
     }

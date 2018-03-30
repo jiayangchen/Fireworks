@@ -38,13 +38,49 @@
     <div class="col-md-1"></div>
     <div class="col-md-10" style="margin-top: 3%">
         <ul id="myTab" class="nav nav-tabs">
-            <li class="active"><a href="#blog" data-toggle="tab">博文管理</a></li>
+            <li class="active"><a href="#config" data-toggle="tab">配置管理</a></li>
+            <li><a href="#blog" data-toggle="tab">博文管理</a></li>
             <li><a href="#activity" data-toggle="tab">动态管理</a></li>
             <li><a href="#gallery" data-toggle="tab">图库管理</a></li>
             <li><a href="#tag" data-toggle="tab">标签管理</a></li>
         </ul>
         <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade in active" id="blog">
+            <div class="tab-pane fade in active" id="config">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="upload-tag">全局配置管理</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <table class="layui-table">
+                            <colgroup>
+                                <col width="50">
+                                <col width="50">
+                                <col width="200">
+                                <col width="200">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>首页博文显示数量</th>
+                                    <th>首页动态显示数量</th>
+                                    <th>个性签名</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" name="title" autocomplete="off" class="layui-input" ng-model="configuration.indexMaxBlogShownNumber"/></td>
+                                    <td><input type="text" name="title" autocomplete="off" class="layui-input" ng-model="configuration.indexMaxActivityShownNumber"/></td>
+                                    <td><input type="text" name="title" autocomplete="off" class="layui-input" ng-model="configuration.personalSignature"/></td>
+                                    <td><button class="layui-btn layui-btn-normal" ng-click="updateConfig()">更新配置</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="blog">
                 <div class="row">
                     <div class="col-md-12">
                         <h4 class="upload-tag">上传博文</h4>

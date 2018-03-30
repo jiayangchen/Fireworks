@@ -13,6 +13,6 @@ import java.util.List;
 @Component
 public interface ActivityDao {
     void insert(Activity activity);
-    List<Activity> getActivityByPage(int page);
+    List<Activity> getActivityByPage(int page, int capacity);
     List<Activity> getAll();
 }

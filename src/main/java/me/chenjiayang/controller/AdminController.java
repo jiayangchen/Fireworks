@@ -1,8 +1,10 @@
 package me.chenjiayang.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import me.chenjiayang.dao.ConfigurationDao;
 import me.chenjiayang.entity.Activity;
 import me.chenjiayang.entity.Blog;
+import me.chenjiayang.entity.Configuration;
 import me.chenjiayang.service.ActivityService;
 import me.chenjiayang.service.BlogService;
 import me.chenjiayang.utils.Constant;
@@ -32,6 +34,9 @@ public class AdminController {
     private ActivityService activityService;
 
     @Autowired
+    private ConfigurationDao configurationDao;
+
+    @Autowired
     private BlogService blogService;
 
     @RequestMapping(value = "/admin",method = RequestMethod.GET)
@@ -44,6 +49,24 @@ public class AdminController {
     @ResponseBody
     public ModelAndView login (){
         return new ModelAndView("login");
+    }
+
+    @RequestMapping(value = "/getConfiguration", method = RequestMethod.GET, produces = {"application/json;charset=UTF-8"})
+    @ResponseBody
+    public Configuration getConfiguration() {
+        return configurationDao.getConfiguration();
+    }
+
+    @RequestMapping(value = "/updateConfig", method = RequestMethod.POST, produces = {"application/json;charset=UTF-8"})
+    @ResponseBody
+    public Boolean updateConfig(@RequestBody Configuration config) {
+        try {
+            configurationDao.update(config);
+            return true;
+        } catch (Exception e) {
+            logger.error("updateConfig",e);
+            return false;
+        }
     }
 
     @RequestMapping(value = "/addActivity", method = RequestMethod.POST, produces = {"application/json;charset=UTF-8"})

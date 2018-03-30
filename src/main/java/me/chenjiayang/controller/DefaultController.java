@@ -69,10 +69,11 @@ public class DefaultController {
 
     @RequestMapping(value = "/getActivitiesByPage",method = RequestMethod.GET)
     @ResponseBody
-    public List<Activity> getActivitiesByPage(@RequestParam("page") int page){
+    public List<Activity> getActivitiesByPage(@RequestParam("page") int page,
+                                              @RequestParam("capacity") int capacity){
         List<Activity> result = new ArrayList<>();
         try {
-            result = activityService.findActivitiesByPage(page);
+            result = activityService.findActivitiesByPage(page, capacity);
         } catch (Exception e) {
             logger.error("getActivitiesByPage", Constant.SERVER_ERROR.getName() + " " + e.getMessage());
         }

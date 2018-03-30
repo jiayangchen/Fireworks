@@ -9,6 +9,6 @@ import java.util.List;
  */
 public interface ActivityService {
     void addActivity (Activity activity);
-    List<Activity> findActivitiesByPage(int page);
+    List<Activity> findActivitiesByPage(int page, int capacity);
     List<Activity> findAll();
 }

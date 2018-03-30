@@ -14,7 +14,7 @@ import java.util.List;
 @Component
 public interface BlogDao {
     List<Blog> getAll();
-    List<Blog> getAllDescByPage(int page);
+    List<Blog> getAllDescByPage(int page, int capacity);
     List<Blog> getBlogByDate(Timestamp startDate, Timestamp endDate, int page);
     void insert(Blog blog);
     void update(Blog blog);

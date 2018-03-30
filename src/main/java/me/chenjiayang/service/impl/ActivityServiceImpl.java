@@ -24,8 +24,8 @@ public class ActivityServiceImpl implements ActivityService {
     }
 
     @Override
-    public List<Activity> findActivitiesByPage(int page) {
-        return activityDao.getActivityByPage(page);
+    public List<Activity> findActivitiesByPage(int page, int capacity) {
+        return activityDao.getActivityByPage(page, capacity);
     }
 
     @Override

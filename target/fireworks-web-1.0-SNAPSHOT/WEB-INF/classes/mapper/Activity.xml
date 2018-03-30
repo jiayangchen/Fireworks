@@ -12,7 +12,7 @@
 
     <select id="getActivityByPage" parameterType="java.lang.Integer" resultType="me.chenjiayang.entity.Activity">
         SELECT * FROM `Activity` ORDER BY createTime DESC
-        LIMIT #{page}, 3
+        LIMIT #{0}, #{1}
     </select>
 
     <select id="getAll" resultType="me.chenjiayang.entity.Activity">

@@ -38,8 +38,8 @@ public class BlogServiceImpl implements BlogService {
     }
 
     @Override
-    public List<Blog> listBlogTitle(int page) {
-        return blogDao.getAllDescByPage(page);
+    public List<Blog> listBlogTitle(int page, int capacity) {
+        return blogDao.getAllDescByPage(page, capacity);
     }
 
     @Override

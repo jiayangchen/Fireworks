@@ -103,6 +103,12 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
         });
     };
 
+    $scope.getConfiguration = function () {
+        $http.get('/getConfiguration').then(function (response) {
+            $scope.configuration = response.data;
+        })
+    };
+
     $scope.loginAuth = function () {
         alert($scope.loginUsername + ' ' + $scope.loginPassword);
     };
@@ -196,13 +202,13 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
             table.render({
                 elem: '#test'
                 ,cols: [[
-                    {field:'id', width: 10, title: 'ID', sort: true}
+                    {field:'id', title: 'ID', sort: true}
                     ,{field:'blogName', title: '文件名'}
                     ,{field:'blogTitle', edit: 'text', title: '标题'}
                     ,{field:'blogTag', title: '标签', edit: 'text'}
                     ,{field:'viewCount', title: '阅读量', edit: 'text', sort: true}
                     ,{field:'favouriteCount', title: '点赞数', edit: 'text', sort: true}
-                    ,{field:'id', title: '操作', toolbar: '#barDemo'}
+                    ,{field:'id', title: '操作', width: 150, toolbar: '#barDemo'}
                 ]]
                 ,page: true
                 ,data: data
@@ -224,9 +230,27 @@ app.controller('FireworksAdminController', ['$scope', '$http', '$compile', funct
             })
     };
 
+    $scope.updateConfig = function () {
+        var config = {
+            id: $scope.configuration.id,
+            indexMaxBlogShownNumber: $scope.configuration.indexMaxBlogShownNumber,
+            indexMaxActivityShownNumber: $scope.configuration.indexMaxActivityShownNumber,
+            personalSignature: $scope.configuration.personalSignature
+        };
+
+        $http.post('/updateConfig', config).then(function (response) {
+            if(response.data) {
+                alert('配置成功');
+            } else {
+                alert('配置失败');
+            }
+        })
+    };
+
     $scope.initPage = function () {
         $scope.initBlogArrangementPage();
         $scope.initActivityArrangement();
+        $scope.getConfiguration();
     };
 
     $scope.initPage();

@@ -10,7 +10,7 @@
 
     <select id="getAllDescByPage" parameterType="java.lang.Integer" resultType="me.chenjiayang.entity.Blog">
         SELECT * FROM `Blog`
-        ORDER BY createTime DESC LIMIT #{page}, 10
+        ORDER BY createTime DESC LIMIT #{0}, #{1}
     </select>
 
     <insert id="insert" parameterType="Blog">

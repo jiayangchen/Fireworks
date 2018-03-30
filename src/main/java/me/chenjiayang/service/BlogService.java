@@ -15,7 +15,7 @@ public interface BlogService {
     List<Blog> findAll();
     void addBlog(Blog blog);
     void updateBlog(Blog blog);
-    List<Blog> listBlogTitle(int page);
+    List<Blog> listBlogTitle(int page, int capacity);
     List<Blog> listBlogTitleByDate(String month, int page) throws ParseException;
     Blog findBlogByName(String blogName);
     Set<Archive> findArchives();
