@@ -20,6 +20,74 @@
             font-family: Bimini;
             src: url('/assets/font/Bimini.ttf');
         }
+        /* 大屏幕 */
+        @media (min-width: 1200px) {
+            html{font-size: 10px;}
+            .index-title {
+                color: white;
+                font-weight: bolder;
+                font-size: 8rem;
+                font-family: MicrosoftVistaYaHei;
+            }
+            .index-subtitle {
+                color: white;
+                font-weight: lighter;
+                font-size: 2rem;
+                font-family: MicrosoftVistaYaHei;
+            }
+            .index-title-div {
+                position:absolute;
+                z-index:2;
+                left:32%;
+                top:5%;
+            }
+            .index-subtitle-div {
+                position:absolute;
+                z-index:2;
+                left:30%;
+                top:13%;
+            }
+        }
+
+        /* 平板电脑和小屏电脑之间的分辨率 */
+        @media (min-width: 768px) and (max-width: 979px) {
+            html{font-size: 1px;}
+        }
+
+        /* 横向放置的手机和竖向放置的平板之间的分辨率 */
+        @media (max-width: 767px) {
+            html{font-size: 2px;}
+            .index-title {
+                color: white;
+                font-weight: bolder;
+                font-size: 15rem;
+                font-family: MicrosoftVistaYaHei;
+            }
+            .index-subtitle {
+                color: white;
+                font-weight: lighter;
+                font-size: 1rem;
+                font-family: MicrosoftVistaYaHei;
+            }
+            .index-title-div {
+                position:absolute;
+                z-index:2;
+                left:30%;
+                top:1.5%;
+            }
+            .index-subtitle-div {
+                position: absolute;
+                z-index: 2;
+                left: 5%;
+                top: 4%;
+            }
+        }
+
+        /* 横向放置的手机及分辨率更小的设备 */
+        @media (max-width: 480px) {
+            html{font-size: 2px;}
+        }
+
         .avatar{
             margin-top: 3%;
             margin-left: 13%;
@@ -28,13 +96,13 @@
         .connect-row {
         }
         .connect-logo {
-            width: 58px;
-            height: 58px;
+            width: 5.8rem;
+            height: 5.8rem;
             cursor: pointer;
         }
         .connect-logo-csdn {
-            width: 80px;
-            height: 70px;
+            width: 8rem;
+            height: 7rem;
             cursor: pointer;
         }
         .intro {
@@ -44,7 +112,7 @@
             margin-top: 10%;
             text-align: center;
             font-family: Bimini;
-            font-size: 22px;
+            font-size: 2.2rem;
         }
         .aboutme:hover {
             color: #0b76ac;
@@ -54,7 +122,7 @@
             margin-right: 5%;
         }
         .recent-blog-list {
-            font-size: 13px;
+            font-size: 1.3rem;
             font-style: normal;
             font-weight: lighter;
             text-align: left;
@@ -64,7 +132,7 @@
         .btn-tag {
             margin-left: 1%;
             margin-bottom: 2%;
-            border-Radius: 20px;
+            border-Radius: 2rem;
         }
         .photo-slider {
             margin-top: 2%;
@@ -82,7 +150,7 @@
             text-align: center;
             margin-top: 8%;
             font-family: Bimini;
-            font-size: 22px;
+            font-size: 2.2rem;
         }
         .turnPage1 {
             margin-left: 35%;
@@ -124,7 +192,7 @@
         .four-btn {
             width: 100%;
             margin-top: 1%;
-            height: 100px;
+            height: 10rem;
         }
         .btn-gallery-bg {
             background-image: url('/assets/img/gallery-bg.png');
@@ -157,20 +225,20 @@
         .activity-location {
             text-align: left;
             margin-left: 10%;
-            font-size: 13px;
+            font-size: 1.3rem;
             color: #999;
             font-family: MicrosoftVistaYaHei;
         }
         .activity-date {
             text-align: right;
-            font-size: 13px;
+            font-size: 1.3rem;
             margin-left: 45%;
             color: #999;
             font-family: MicrosoftVistaYaHei;
         }
         .activity-content {
             margin-left: 5%;
-            font-size: 13px;
+            font-size: 1.3rem;
             font-family: MicrosoftVistaYaHei;
         }
         .intro-sentence {
@@ -178,18 +246,18 @@
             font-family: cursive;
         }
         .pageBtn {
-            font-size: 12px;
+            font-size: 1.2rem;
             color: gray;
             font-family: Bimini;
         }
         .blog-auth {
-            font-size: 12px;
+            font-size: 1.2rem;
             margin-left: 10%;
             margin-top: 4%;
             font-family: MicrosoftVistaYaHei;
         }
         .theme-auth {
-            font-size: 12px;
+            font-size: 1.2rem;
             margin-left: 6%;
             font-family: MicrosoftVistaYaHei;
         }
@@ -197,18 +265,18 @@
             color:#b4b4b4;
             text-align: center;
             font-family: Bimini;
-            font-size: 22px;
+            font-size: 2.2rem;
         }
         .blogTitle {
             margin-left: 1%;
             font-family: MicrosoftVistaYaHei;
-            font-size: 20px;
+            font-size: 2rem;
         }
         .super-link {
             color: black;
         }
         .musicTabTitle {
-            font-size: 20px;
+            font-size: 2rem;
             font-family: cursive;
             text-align: center;
         }
@@ -216,14 +284,14 @@
 
         }
         .blogInfo {
-            font-size: 14px;
+            font-size: 1.4rem;
             font-family: MicrosoftVistaYaHei;
             margin-left: 1%;
             font-weight: lighter;
             color: #999;
         }
         .blogInfoContent {
-            font-size: 14px;
+            font-size: 1.4rem;
             color: #3354AA;
             font-weight: lighter;
             font-family: MicrosoftVistaYaHei;
@@ -233,7 +301,7 @@
             border-color: darkorange;
             border-width: 1px;
             color: darkorange;
-            font-size: 12px;
+            font-size: 1.2rem;
             padding-left: 3px;
             padding-bottom: 2px;
             padding-top: 2px;
@@ -249,67 +317,56 @@
             padding-top: 2px;
             padding-right: 3px;
             color: darkblue;
-            font-size: 12px;
+            font-size: 1.2rem;
             margin-left: 5%;
         }
         .tag-content {
             margin-left: 5%;
-            font-size: 12px;
+            font-size: 1.2rem;
             color: dimgray;
         }
         .four-btn-font {
             color: white;
-            font-size: 25px;
+            font-size: 2.5rem;
             font-weight: bold;
             font-family: Bimini;
         }
         .four-btn-font:hover {
-            font-size: 28px;
+            font-size: 2.8rem;
         }
         .intro-bg {
             width:100%;
         }
-        .index-title {
-            color: white;
-            font-weight: bolder;
-            font-size: 80px;
-            font-family: MicrosoftVistaYaHei;
-        }
-        .index-subtitle {
-            color: white;
-            font-weight: lighter;
-            font-size: 20px;
-            font-family: MicrosoftVistaYaHei;
-        }
+
     </style>
 </head>
 <body>
 
 <div class="row">
-    <div class="col-md-12" style="position: relative">
+    <div class="col-md-12 col-xs-12" style="position: relative">
         <img src="/assets/img/bg1.png" class="intro-bg">
     </div>
-    <div style="position:absolute; z-index:2; left:32%; top:5%;">
+    <div class="index-title-div">
         <p class="index-title">旧时光 | Time</p>
     </div>
-    <div style="position:absolute; z-index:2; left:30%; top:13%;">
+    <div class="index-subtitle-div">
         <p class="index-subtitle">Something stays in your mind will someday spring up in your life</p>
     </div>
     <div style="position:absolute; z-index:2; left:36%; top:18%;">
         <div class="row connect-row">
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <a class="super-link" href="https://github.com/jiayangchen" target="_blank"><i style="color: white" class="fa fa-github fa-4x" aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <a class="super-link" href="https://www.linkedin.com/in/%E5%98%89%E6%89%AC-%E9%99%88-04463a117" target="_blank"><i style="color: white" class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <a class="super-link" href="https://weibo.com/u/3284056213" target="_blank"><i style="color: white" class="fa fa-weibo fa-4x" aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <a class="super-link" href="https://www.zhihu.com/people/EasonChen_7/activities" target="_blank"><img src="/assets/img/zhihu.png" class="connect-logo"></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-6">
                 <a class="super-link" href="https://blog.csdn.net/chen_kkw" target="_blank"><img src="/assets/img/csdn.png" class="connect-logo-csdn"></a>
             </div>
         </div>
@@ -317,15 +374,15 @@
 </div>
 
 <div class="row" ng-app="fireworks" ng-controller="FireworksIndexController">
-    <div class="col-md-2">
+    <div class="col-md-2 col-xs-12">
         <div style="margin-left: 15%">
 
-        <div class="row" style="margin-top: 5%;">
+        <div class="row hidden-xs" style="margin-top: 5%;">
             <div class="col-md-4 avatar">
                 <img class="am-circle" src="/assets/img/avatar.jpeg" width="140" height="140"/>
             </div>
         </div>
-        <div class="row">
+        <div class="row hidden-xs">
             <div class="col-md-12">
                 <h5 class="intro-tag" style="font-weight: bold; color:#b4b4b4; cursor: pointer"><a href="/aboutme" style="text-decoration:none; color:#b4b4b4;"><span class="aboutme">About Me</span></a></h5>
             </div>
@@ -333,13 +390,13 @@
                 <hr class="divider">
             </div>
         </div>
-        <div class="row">
+        <div class="row hidden-xs">
             <div class="col-md-12 intro">
                 <p class="intro-sentence">{{introduction}}</p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row hidden-xs">
             <div class="col-md-12">
                 <h5 class="intro-tag" style="font-weight: bold;color:#b4b4b4;">Recent Blog</h5>
             </div>
@@ -350,7 +407,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row hidden-xs">
             <div class="col-md-12">
                 <h5 class="popular-tag">Popular Tag</h5>
             </div>
@@ -362,7 +419,7 @@
             </div>
         </div>
         </div>
-        <div class="row" style="text-align: center; margin-top: 10%;">
+        <div class="row hidden-xs" style="text-align: center; margin-top: 10%;">
             <div class="col-md-12">
                 <span class="blog-auth">Copyright © 旧时光 | Time 2018</span>
             </div>
@@ -372,13 +429,13 @@
         </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 col-xs-12">
         <div>
         <div class="row">
             <div class="col-md-8">
                 <div class="btn-group header-btn-group" role="group" aria-label="...">
 
-                    <div class="btn-group" role="group">
+                    <div class="btn-group hidden-xs" role="group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-calendar" aria-hidden="true"></i> 归档
                             <span class="caret"></span>
@@ -398,7 +455,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="btn-group" role="group">
+                    <div class="btn-group hidden-xs" role="group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-tag" aria-hidden="true"></i> 标签
                             <span class="caret"></span>
@@ -416,16 +473,16 @@
             <ul class="am-list am-list-border blogList">
                 <li ng-repeat="x in titleList" style="vertical-align: middle;">
                     <div class="am-g">
-                        <div class="am-u-md-9" style="margin-top: 2.5%;">
+                        <div class="am-u-md-9 am-u-sm-9" style="margin-top: 2.5%;">
                             <a href="/blog/{{x.blogName}}" class="am-text-truncate title"><span class="blogTitle">{{x.blogTitle}}</span></a>
                         </div>
-                        <div class="am-u-md-3"></div>
+                        <div class="am-u-md-3 am-u-sm-3"></div>
                     </div>
                     <div class="am-g">
-                        <div class="am-u-md-9" style="margin-top: 1%;margin-bottom: 1%;">
+                        <div class="am-u-md-9 am-u-sm-9" style="margin-top: 1%;margin-bottom: 1%;">
                             <span class="blogInfo">作者：</span><span class="blogInfoContent">Jiayang</span> | <span class="blogInfo">时间：</span><span class="blogInfoContent">{{x.createTime | date:'yyyy-MM-dd'}}</span> | <span class="blogInfo">标签：</span><span class="blogInfoContent">Tag</span>
                         </div>
-                        <div class="am-u-md-3" style="margin-top: 1%;margin-bottom: 1%;">
+                        <div class="am-u-md-3 am-u-sm-3" style="margin-top: 1%;margin-bottom: 1%;">
                             <span class="tag-view-border">阅读</span><span class="tag-content">{{x.viewCount}}</span><span class="tag-favourite-border">赞</span><span class="tag-content">{{x.favouriteCount}}</span>
                         </div>
                     </div>
@@ -448,21 +505,21 @@
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
         <div style="margin-right: 5%">
         <div class="row" style="margin-top: 11%">
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <a href="/gallery"><button type="button" class="am-btn am-btn-lg four-btn btn-gallery-bg"><span class="four-btn-font"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;Gallery</span></button></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <button type="button" class="am-btn am-btn-lg four-btn btn-music-bg" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><span class="four-btn-font"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;Music</span></button>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <a href="/project"><button type="button" class="am-btn am-btn-lg four-btn btn-project-bg"><span class="four-btn-font"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;Project</span></button></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <button type="button" class="am-btn am-btn-lg four-btn btn-statistics-bg"><span class="four-btn-font"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;Statistics</span></button>
             </div>
         </div>
