@@ -113,7 +113,7 @@ public class AdminController {
     public JSONObject upload(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
         JSONObject result = new JSONObject();
         if (!file.isEmpty()) {
-            String storePath = "/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/webapp/assets/md";
+            String storePath = FileUtils.path;
             String fileName = file.getOriginalFilename();
             File filepath = new File(storePath, fileName);
             if (!filepath.getParentFile().exists()) {

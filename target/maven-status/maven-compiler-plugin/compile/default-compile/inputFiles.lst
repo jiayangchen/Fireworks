@@ -7,7 +7,9 @@
 /Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/entity/Photograph.java
 /Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/task/CheckConsistenceTask.java
 /Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/dao/BlogDao.java
+/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/entity/Configuration.java
 /Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/utils/MyHttpHeader.java
+/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/dao/ConfigurationDao.java
 /Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/controller/DefaultController.java
 /Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/service/impl/BlogServiceImpl.java
 /Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/java/me/chenjiayang/service/impl/GalleryServiceImpl.java

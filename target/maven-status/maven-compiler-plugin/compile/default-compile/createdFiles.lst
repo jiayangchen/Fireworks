@@ -20,7 +20,9 @@ me/chenjiayang/entity/Photograph.class
 me/chenjiayang/controller/DefaultController.class
 me/chenjiayang/controller/ProjectController.class
 me/chenjiayang/dao/GalleryDao.class
+me/chenjiayang/dao/ConfigurationDao.class
 me/chenjiayang/service/impl/ActivityServiceImpl.class
 me/chenjiayang/entity/Blog.class
 me/chenjiayang/utils/MyHttpHeader.class
 me/chenjiayang/controller/BlogController.class
+me/chenjiayang/entity/Configuration.class

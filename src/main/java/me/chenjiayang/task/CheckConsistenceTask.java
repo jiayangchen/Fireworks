@@ -40,9 +40,11 @@ public class CheckConsistenceTask {
         for(Blog blog : blogList) {
             isDBExist.put(blog.getBlogName(), true);
         }
+        isDBExist.put(".DS_Store", true);
         for(String fileName : fileNameList) {
             isMDExist.put(fileName, true);
         }
+        isMDExist.put(".DS_Store", true);
         for(String fileName : fileNameList) {
             if(!isDBExist.containsKey(fileName)) {
                 isConsistence = false;

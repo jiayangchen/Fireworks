@@ -20,13 +20,13 @@
         .connect-row {
         }
         .connect-logo {
-            width: 32px;
-            height: 32px;
+            width: 58px;
+            height: 58px;
             cursor: pointer;
         }
         .connect-logo-csdn {
-            width: 50px;
-            height: 40px;
+            width: 80px;
+            height: 70px;
             cursor: pointer;
         }
         .intro {
@@ -255,9 +255,53 @@
         .four-btn-font:hover {
             font-size: 28px;
         }
+        .intro-bg {
+            width:100%;
+        }
+        .index-title {
+            color: white;
+            font-weight: bolder;
+            font-size: 80px;
+        }
+        .index-subtitle {
+            color: white;
+            font-weight: lighter;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
+
+<div class="row">
+    <div class="col-md-12" style="position: relative">
+        <img src="/assets/img/bg1.png" class="intro-bg">
+    </div>
+    <div style="position:absolute; z-index:2; left:32%; top:5%;">
+        <p class="index-title">旧时光 | Time</p>
+    </div>
+    <div style="position:absolute; z-index:2; left:30%; top:13%;">
+        <p class="index-subtitle">Something stays in your mind will someday spring up in your life</p>
+    </div>
+    <div style="position:absolute; z-index:2; left:36%; top:18%;">
+        <div class="row connect-row">
+            <div class="col-md-2">
+                <a class="super-link" href="https://github.com/jiayangchen" target="_blank"><i style="color: white" class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-md-2">
+                <a class="super-link" href="https://www.linkedin.com/in/%E5%98%89%E6%89%AC-%E9%99%88-04463a117" target="_blank"><i style="color: white" class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-md-2">
+                <a class="super-link" href="https://weibo.com/u/3284056213" target="_blank"><i style="color: white" class="fa fa-weibo fa-4x" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-md-2">
+                <a class="super-link" href="https://www.zhihu.com/people/EasonChen_7/activities" target="_blank"><img src="/assets/img/zhihu.png" class="connect-logo"></a>
+            </div>
+            <div class="col-md-2">
+                <a class="super-link" href="https://blog.csdn.net/chen_kkw" target="_blank"><img src="/assets/img/csdn.png" class="connect-logo-csdn"></a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="row" ng-app="fireworks" ng-controller="FireworksIndexController">
     <div class="col-md-2">
@@ -285,23 +329,23 @@
                 <p class="intro-sentence">{{introduction}}</p>
             </div>
         </div>
-        <div class="row connect-row">
-            <div class="col-md-2">
-                <a class="super-link" href="https://github.com/jiayangchen" target="_blank"><i class="fa fa-github fa-2x connect-logo" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-md-2">
-                <a class="super-link" href="https://www.linkedin.com/in/%E5%98%89%E6%89%AC-%E9%99%88-04463a117" target="_blank"><i class="fa fa-linkedin-square fa-2x connect-logo" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-md-2">
-                <a class="super-link" href="https://weibo.com/u/3284056213" target="_blank"><i class="fa fa-weibo fa-2x connect-logo" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-md-2">
-                <a class="super-link" href="https://www.zhihu.com/people/EasonChen_7/activities" target="_blank"><img src="/assets/img/zhihu0.png" class="connect-logo"></a>
-            </div>
-            <div class="col-md-2">
-                <a class="super-link" href="https://blog.csdn.net/chen_kkw" target="_blank"><img src="/assets/img/csdn.png" class="connect-logo-csdn"></a>
-            </div>
-        </div>
+        <!--<div class="row connect-row">-->
+            <!--<div class="col-md-2">-->
+                <!--<a class="super-link" href="https://github.com/jiayangchen" target="_blank"><i class="fa fa-github fa-2x connect-logo" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-md-2">-->
+                <!--<a class="super-link" href="https://www.linkedin.com/in/%E5%98%89%E6%89%AC-%E9%99%88-04463a117" target="_blank"><i class="fa fa-linkedin-square fa-2x connect-logo" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-md-2">-->
+                <!--<a class="super-link" href="https://weibo.com/u/3284056213" target="_blank"><i class="fa fa-weibo fa-2x connect-logo" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+            <!--<div class="col-md-2">-->
+                <!--<a class="super-link" href="https://www.zhihu.com/people/EasonChen_7/activities" target="_blank"><img src="/assets/img/zhihu0.png" class="connect-logo"></a>-->
+            <!--</div>-->
+            <!--<div class="col-md-2">-->
+                <!--<a class="super-link" href="https://blog.csdn.net/chen_kkw" target="_blank"><img src="/assets/img/csdn.png" class="connect-logo-csdn"></a>-->
+            <!--</div>-->
+        <!--</div>-->
 
         <div class="row">
             <div class="col-md-12">
