@@ -12,6 +12,14 @@
     <link href="/static/css/amazeui.min.css" rel="stylesheet">
     <link href="/static/css/font-awesome.min.css" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: MicrosoftVistaYaHei;
+            src: url('/assets/font/MicrosoftVistaYaHei.ttf');
+        }
+        @font-face {
+            font-family: Bimini;
+            src: url('/assets/font/Bimini.ttf');
+        }
         .avatar{
             margin-top: 3%;
             margin-left: 13%;
@@ -35,7 +43,7 @@
         .intro-tag {
             margin-top: 10%;
             text-align: center;
-            font-family: cursive;
+            font-family: Bimini;
             font-size: 22px;
         }
         .aboutme:hover {
@@ -51,7 +59,7 @@
             font-weight: lighter;
             text-align: left;
             margin-left: 5%;
-            font-family: initial;
+            font-family: MicrosoftVistaYaHei;
         }
         .btn-tag {
             margin-left: 1%;
@@ -73,7 +81,7 @@
         .activity-tag {
             text-align: center;
             margin-top: 8%;
-            font-family: cursive;
+            font-family: Bimini;
             font-size: 22px;
         }
         .turnPage1 {
@@ -151,19 +159,19 @@
             margin-left: 10%;
             font-size: 13px;
             color: #999;
-            font-family: cursive;
+            font-family: MicrosoftVistaYaHei;
         }
         .activity-date {
             text-align: right;
             font-size: 13px;
             margin-left: 45%;
             color: #999;
-            font-family: cursive;
+            font-family: MicrosoftVistaYaHei;
         }
         .activity-content {
             margin-left: 5%;
-            font-family: cursive;
-            font-size: 15px;
+            font-size: 13px;
+            font-family: MicrosoftVistaYaHei;
         }
         .intro-sentence {
             color: #56565687;
@@ -172,27 +180,28 @@
         .pageBtn {
             font-size: 12px;
             color: gray;
+            font-family: Bimini;
         }
         .blog-auth {
             font-size: 12px;
             margin-left: 10%;
-            font-family: cursive;
             margin-top: 4%;
+            font-family: MicrosoftVistaYaHei;
         }
         .theme-auth {
             font-size: 12px;
-            font-family: cursive;
             margin-left: 6%;
+            font-family: MicrosoftVistaYaHei;
         }
         .popular-tag {
             color:#b4b4b4;
             text-align: center;
-            font-family: cursive;
+            font-family: Bimini;
             font-size: 22px;
         }
         .blogTitle {
             margin-left: 1%;
-            font-family: initial;
+            font-family: MicrosoftVistaYaHei;
             font-size: 20px;
         }
         .super-link {
@@ -208,15 +217,16 @@
         }
         .blogInfo {
             font-size: 14px;
-            font-family: initial;
+            font-family: MicrosoftVistaYaHei;
             margin-left: 1%;
-            font-weight: bolder;
+            font-weight: lighter;
             color: #999;
         }
         .blogInfoContent {
             font-size: 14px;
             color: #3354AA;
             font-weight: lighter;
+            font-family: MicrosoftVistaYaHei;
         }
         .tag-view-border {
             border: solid;
@@ -251,6 +261,7 @@
             color: white;
             font-size: 25px;
             font-weight: bold;
+            font-family: Bimini;
         }
         .four-btn-font:hover {
             font-size: 28px;
@@ -262,11 +273,13 @@
             color: white;
             font-weight: bolder;
             font-size: 80px;
+            font-family: MicrosoftVistaYaHei;
         }
         .index-subtitle {
             color: white;
             font-weight: lighter;
             font-size: 20px;
+            font-family: MicrosoftVistaYaHei;
         }
     </style>
 </head>
@@ -306,12 +319,8 @@
 <div class="row" ng-app="fireworks" ng-controller="FireworksIndexController">
     <div class="col-md-2">
         <div style="margin-left: 15%">
-        <div class="row">
-            <div class="col-md-12">
-                <h5 class="fireworks-tag" style="font-weight: bold; color:#b4b4b4;">旧时光 | Time</h5>
-            </div>
-        </div>
-        <div class="row">
+
+        <div class="row" style="margin-top: 5%;">
             <div class="col-md-4 avatar">
                 <img class="am-circle" src="/assets/img/avatar.jpeg" width="140" height="140"/>
             </div>
@@ -353,7 +362,7 @@
             </div>
         </div>
         </div>
-        <div class="row" style="text-align: center">
+        <div class="row" style="text-align: center; margin-top: 10%;">
             <div class="col-md-12">
                 <span class="blog-auth">Copyright © 旧时光 | Time 2018</span>
             </div>
@@ -443,18 +452,18 @@
         <div style="margin-right: 5%">
         <div class="row" style="margin-top: 11%">
             <div class="col-md-6">
-                <a href="/gallery"><button type="button" class="am-btn am-btn-lg four-btn btn-gallery-bg"><span class="four-btn-font"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;Gallery</span></button></a>
+                <a href="/gallery"><button type="button" class="am-btn am-btn-lg four-btn btn-gallery-bg"><span class="four-btn-font"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;Gallery</span></button></a>
             </div>
             <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-lg four-btn btn-music-bg" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><span class="four-btn-font"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;Music</span></button>
+                <button type="button" class="am-btn am-btn-lg four-btn btn-music-bg" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><span class="four-btn-font"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;Music</span></button>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a href="/project"><button type="button" class="am-btn am-btn-lg four-btn btn-project-bg"><span class="four-btn-font"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;&nbsp;Project</span></button></a>
+                <a href="/project"><button type="button" class="am-btn am-btn-lg four-btn btn-project-bg"><span class="four-btn-font"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;Project</span></button></a>
             </div>
             <div class="col-md-6">
-                <button type="button" class="am-btn am-btn-lg four-btn btn-statistics-bg"><span class="four-btn-font"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;Statistics</span></button>
+                <button type="button" class="am-btn am-btn-lg four-btn btn-statistics-bg"><span class="four-btn-font"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;Statistics</span></button>
             </div>
         </div>
 
