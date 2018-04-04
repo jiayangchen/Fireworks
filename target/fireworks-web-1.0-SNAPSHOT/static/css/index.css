@@ -1,0 +1,423 @@
+@font-face {
+    font-family: MicrosoftVistaYaHei;
+    src: url('/assets/font/MicrosoftVistaYaHei.ttf');
+}
+@font-face {
+    font-family: Bimini;
+    src: url('/assets/font/Bimini.ttf');
+}
+/* 大屏幕 */
+@media (min-width: 1200px) {
+    html{font-size: 10px;}
+    .index-title {
+        color: white;
+        font-weight: bolder;
+        font-size: 8rem;
+        font-family: MicrosoftVistaYaHei;
+    }
+    .index-subtitle {
+        color: white;
+        font-weight: lighter;
+        font-size: 2rem;
+        font-family: MicrosoftVistaYaHei;
+    }
+    .index-title-div {
+        position:absolute;
+        z-index:2;
+        left:32%;
+        top:5%;
+    }
+    .index-subtitle-div {
+        position:absolute;
+        z-index:2;
+        left:30%;
+        top:13%;
+    }
+    .tag-view-border {
+        border: solid;
+        border-color: darkorange;
+        border-width: 1px;
+        color: darkorange;
+        font-size: 1.2rem;
+        padding-left: 0.3rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        padding-right: 0.3rem;
+        margin-left: 35%;
+    }
+    .tag-favourite-border {
+        border: solid;
+        border-color: darkblue;
+        border-width: 1px;
+        padding-left: 0.3rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        padding-right: 0.3rem;
+        color: darkblue;
+        font-size: 1.2rem;
+        margin-left: 5%;
+    }
+    .tag-content {
+        margin-left: 5%;
+        font-size: 1.2rem;
+        color: dimgray;
+    }
+    .blogTitle {
+        margin-left: 1%;
+        font-family: MicrosoftVistaYaHei;
+        font-size: 2rem;
+    }
+    .blogInfo {
+        font-size: 1.4rem;
+        font-family: MicrosoftVistaYaHei;
+        margin-left: 1%;
+        font-weight: lighter;
+        color: #999;
+    }
+    .threePart {
+    }
+    .twoPart {
+    }
+}
+
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+    html{font-size: 1px;}
+}
+
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width: 767px) {
+    html{font-size: 2px;}
+    .index-title {
+        color: white;
+        font-weight: bolder;
+        font-size: 15rem;
+        font-family: MicrosoftVistaYaHei;
+    }
+    .index-subtitle {
+        color: white;
+        font-weight: lighter;
+        font-size: 1rem;
+        font-family: MicrosoftVistaYaHei;
+    }
+    .index-title-div {
+        position:absolute;
+        z-index:2;
+        left:30%;
+        top:1.5%;
+    }
+    .index-subtitle-div {
+        position: absolute;
+        z-index: 2;
+        left: 5%;
+        top: 4%;
+    }
+    .tag-view-border {
+        border: solid;
+        border-color: darkorange;
+        border-width: 1px;
+        color: darkorange;
+        font-size: 1.2rem;
+        padding-left: 0.3rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        padding-right: 0.3rem;
+    }
+    .tag-favourite-border {
+        border: solid;
+        border-color: darkblue;
+        border-width: 1px;
+        padding-left: 0.3rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        padding-right: 0.3rem;
+        color: darkblue;
+        font-size: 1.2rem;
+        margin-left: 5%;
+    }
+    .tag-content {
+        margin-left: 5%;
+        font-size: 1.2rem;
+        color: dimgray;
+    }
+    .blogTitle {
+        margin-left: 3%;
+        font-family: MicrosoftVistaYaHei;
+        font-size: 2rem;
+    }
+    .blogInfo {
+        font-size: 1.4rem;
+        font-family: MicrosoftVistaYaHei;
+        margin-left: 3%;
+        font-weight: lighter;
+        color: #999;
+    }
+    .threePart {
+        margin-left: 2%;
+    }
+    .twoPart {
+        margin-left: 2%;
+    }
+}
+
+/* 横向放置的手机及分辨率更小的设备 */
+@media (max-width: 480px) {
+    html{font-size: 2px;}
+    .tag-view-border {
+        border: solid;
+        border-color: darkorange;
+        border-width: 1px;
+        color: darkorange;
+        font-size: 1.2rem;
+        padding-left: 0.3rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        padding-right: 0.3rem;
+    }
+    .tag-favourite-border {
+        border: solid;
+        border-color: darkblue;
+        border-width: 1px;
+        padding-left: 0.3rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        padding-right: 0.3rem;
+        color: darkblue;
+        font-size: 1.2rem;
+        margin-left: 5%;
+    }
+    .tag-content {
+        margin-left: 5%;
+        font-size: 1.2rem;
+        color: dimgray;
+    }
+    .blogTitle {
+        margin-left: 3%;
+        font-family: MicrosoftVistaYaHei;
+        font-size: 2rem;
+    }
+    .blogInfo {
+        font-size: 1.4rem;
+        font-family: MicrosoftVistaYaHei;
+        margin-left: 3%;
+        font-weight: lighter;
+        color: #999;
+    }
+    .threePart {
+        margin-left: 2%;
+    }
+    .twoPart {
+        margin-left: 2%;
+    }
+}
+
+.avatar{
+    margin-top: 3%;
+    margin-left: 13%;
+    text-align: center;
+}
+.connect-row {
+}
+.connect-logo {
+    width: 5.8rem;
+    height: 5.8rem;
+    cursor: pointer;
+}
+.connect-logo-csdn {
+    width: 8rem;
+    height: 7rem;
+    cursor: pointer;
+}
+.intro {
+    text-align: center;
+}
+.intro-tag {
+    margin-top: 10%;
+    text-align: center;
+    font-family: Bimini;
+    font-size: 2.2rem;
+}
+.aboutme:hover {
+    color: #0b76ac;
+}
+.divider {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.recent-blog-list {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 5%;
+    font-family: MicrosoftVistaYaHei;
+}
+.btn-tag {
+    margin-left: 1%;
+    margin-bottom: 2%;
+    border-Radius: 2rem;
+}
+.photo-slider {
+    margin-top: 2%;
+}
+.photo {
+    max-width: 100%;
+    max-height: 250px;
+}
+.cardView{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: left;
+}
+.activity-tag {
+    text-align: center;
+    margin-top: 8%;
+    font-family: Bimini;
+    font-size: 2.2rem;
+}
+.turnPage1 {
+    margin-left: 35%;
+}
+.turnPage2 {
+    margin-left: 38%;
+}
+.activity-area {
+
+}
+.searchBtn {
+    margin-top: 4%;
+    margin-right: 4%;
+}
+.header-btn-group {
+    margin-top: 2%;
+}
+.title {
+    font-size: 14px;
+}
+.blogList {
+    margin-left: 2%;
+    margin-right: 3.2%;
+    margin-top: 1%;
+}
+.publishDate {
+    font-size: 14px;
+    color: #959595;
+    margin-left: 50%;
+    font-family: cursive;
+}
+.fireworks-tag {
+    margin-top: 10%;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 10%;
+    font-family: cursive;
+}
+.four-btn {
+    width: 100%;
+    margin-top: 1%;
+    height: 10rem;
+}
+.btn-gallery-bg {
+    background-image: url('/assets/img/gallery-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+.btn-music-bg {
+    background-image: url('/assets/img/music-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+.btn-project-bg {
+    background-image: url('/assets/img/project-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+.btn-statistics-bg {
+    background-image: url('/assets/img/statistics-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+}
+.activity-location {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 1.3rem;
+    color: #999;
+    font-family: MicrosoftVistaYaHei;
+}
+.activity-date {
+    text-align: right;
+    font-size: 1.3rem;
+    margin-left: 45%;
+    color: #999;
+    font-family: MicrosoftVistaYaHei;
+}
+.activity-content {
+    margin-left: 5%;
+    font-size: 1.3rem;
+    font-family: MicrosoftVistaYaHei;
+}
+.intro-sentence {
+    color: #56565687;
+    font-family: cursive;
+}
+.pageBtn {
+    font-size: 1.2rem;
+    color: gray;
+    font-family: Bimini;
+}
+.blog-auth {
+    font-size: 1.2rem;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-family: MicrosoftVistaYaHei;
+}
+.theme-auth {
+    font-size: 1.2rem;
+    margin-left: 6%;
+    font-family: MicrosoftVistaYaHei;
+}
+.popular-tag {
+    color:#b4b4b4;
+    text-align: center;
+    font-family: Bimini;
+    font-size: 2.2rem;
+}
+
+.super-link {
+    color: black;
+}
+.musicTabTitle {
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: center;
+}
+.musicItem {
+
+}
+
+.blogInfoContent {
+    font-size: 1.4rem;
+    color: #3354AA;
+    font-weight: lighter;
+    font-family: MicrosoftVistaYaHei;
+}
+.four-btn-font {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Bimini;
+}
+.four-btn-font:hover {
+    font-size: 2.8rem;
+}
+.intro-bg {
+    width:100%;
+}
