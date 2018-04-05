@@ -8,8 +8,8 @@ import java.util.*;
  */
 public class FileUtils {
 
-    public static final String path = "/data/apache-tomcat-8.0.50/webapps/ROOT/assets/md";
-    //public static final String path = "/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/webapp/assets/md";
+    //public static final String path = "/data/apache-tomcat-8.0.50/webapps/ROOT/assets/md";
+    public static final String path = "/Users/chenjiayang/Documents/jiayangchen/fireworks/src/main/webapp/assets/md";
 
     public static String buildCompleteBlogName(String blogName) {
         return blogName + ".md";

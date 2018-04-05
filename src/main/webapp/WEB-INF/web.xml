@@ -60,8 +60,21 @@
   <!-- spring mvc servlet end -->
 
   <welcome-file-list>
-    <welcome-file>view/index.html</welcome-file>
+    <welcome-file>/WEB-INF/view/index.html</welcome-file>
   </welcome-file-list>
+
+  <error-page>
+    <exception-type>java.lang.Throwable</exception-type>
+    <location>/WEB-INF/view/error.html</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/WEB-INF/view/error.html</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/WEB-INF/view/error.html</location>
+  </error-page>
 
 </web-app>
         
