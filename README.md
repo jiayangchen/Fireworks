@@ -7,6 +7,9 @@
 
 <img width="291" height="295" src="http://o9oomuync.bkt.clouddn.com/fireworks.jpg"/>
 
+### 演示地址
+[旧时光 | Time](http://122.152.216.158:9999/)
+
 ### 技术栈
 fireworks 是一个博客系统，前端基于 Bootstrap、AmazonUI、Angularjs，后端基于 SpringMVC、Mybatis，博文采用 Markdown 上传
 
