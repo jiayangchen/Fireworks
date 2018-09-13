@@ -7,8 +7,8 @@
 
 <img width="291" height="295" src="http://o9oomuync.bkt.clouddn.com/fireworks.jpg"/>
 
-### 演示地址
-[旧时光 | Time](http://122.152.216.158:9999/)
+### 演示地址(已废弃 Sorry)
+[旧时光 | Time]()
 
 ### 技术栈
 fireworks 是一个博客系统，前端基于 Bootstrap、AmazonUI、Angularjs，后端基于 SpringMVC、Mybatis，博文采用 Markdown 上传
@@ -23,7 +23,7 @@ fireworks 是一个博客系统，前端基于 Bootstrap、AmazonUI、Angularjs�
 * 点击运行看到首页即为部署成功，接下来就可以按照你自己的想法替换 assets/md 文件夹下的博文和数据库中的信息了
 
 ### 项目进展
-目前整个系统尚在开发中，页面 UI 和功能基本完成，后台Admin管理端开发进度 80 %
+目前整个系统尚在开发中，页面 UI 和功能基本完成，后台Admin管理端开发进度 90 %
 
 ### 联系方式
 对项目有任何问题欢迎联系 Chen.Jiayang@foxmail.com
