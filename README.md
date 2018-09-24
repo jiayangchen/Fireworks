@@ -1,5 +1,5 @@
 # fireworks
-**名字寓意希望通过文字记录下生活中像烟火般绚烂的瞬间**
+> 名字寓意是，希望通过文字记录下生活中像烟火般绚烂的瞬间
 
 ![](https://img.shields.io/badge/build-passing-green.svg)
 ![](https://img.shields.io/badge/spring-4.0.2-green.svg)
