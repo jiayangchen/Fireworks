@@ -1,4 +1,6 @@
 # fireworks
+**名字寓意希望通过文字记录下生活中像烟火般绚烂的瞬间**
+
 ![](https://img.shields.io/badge/build-passing-green.svg)
 ![](https://img.shields.io/badge/spring-4.0.2-green.svg)
 ![](https://img.shields.io/badge/angularjs-1.6.9-green.svg)
@@ -14,7 +16,7 @@
 fireworks 是一个博客系统，前端基于 Bootstrap、AmazonUI、Angularjs，后端基于 SpringMVC、Mybatis，博文采用 Markdown 上传
 
 ### 项目简介
-项目开启于 2018-03-22，恰好那时实习期间任务不重，于是想写点东西练练手、写过才能踩坑啊，况且原本自己的基于 Jekyll 的博客太过简单，于是 firework 这个系统诞生了，**名字寓意希望通过文字记录下生活中像烟火般绚烂的瞬间**
+项目开启于 2018-03-22，恰好那时实习期间任务不重，于是想写点东西练练手、写过才能踩坑啊，况且原本自己的基于 Jekyll 的博客太过简单，于是 firework 这个系统诞生了。
 
 ### 部署方式
 * git clone 到本地之后，导入 Intellij IDEA 中，配置 tomcat 服务器
